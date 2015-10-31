@@ -3764,7 +3764,7 @@
 
 	}
 
-.project1, .project2, .project3 {
+.project1, .project-outline {
 	padding: 2.4em 0;
 	font-size: 2em;
 	margin: 0.2em;
@@ -3773,6 +3773,11 @@
 }
 .project3 {
 	margin-top: 0.8em;
+}
+.project-outline {
+	border: 5px #CCC dotted;
+	border-radius: 10px;
+	color: #BBB;
 }
 .project1 {
 	background: -webkit-linear-gradient(30deg, #085078 10%, #85D8CE 90%); /* Chrome 10+, Saf5.1+ */
@@ -3795,5 +3800,22 @@
   background:     -ms-linear-gradient(30deg, #614385 20%, #516395 90%); /* IE10 */
   background:      -o-linear-gradient(30deg, #614385 20%, #516395 90%); /* Opera 11.10+ */
   background:         linear-gradient(30deg, #614385 20%, #516395 90%); /* W3C */
+
+}
+.project4 {
+	background: -webkit-linear-gradient(90deg, #76b852 10%, #8DC26F 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #76b852 10%, #8DC26F 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #76b852 10%, #8DC26F 90%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #76b852 10%, #8DC26F 90%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #76b852 10%, #8DC26F 90%); /* W3C */
+}
+.project5 {
+	background: -webkit-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #00c6ff 10%, #0072ff 90%); /* W3C */
+}
+.project6 {
 
 }
