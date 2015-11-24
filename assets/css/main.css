@@ -3041,11 +3041,9 @@
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
+		z-index: -30;
 	}
 
-		#banner :last-child {
-			margin-bottom: 0;
-		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
@@ -3764,20 +3762,29 @@
 
 	}
 
-.project1, .project-outline {
+.project1, .project2, .project3, .project-outline {
 	padding: 2.4em 0;
 	font-size: 2em;
 	margin: 0.2em;
 	color: white;
 	text-align: center;
 }
-.project3 {
+.project2 {
 	margin-top: 0.8em;
 }
 .project-outline {
 	border: 5px #CCC dotted;
 	border-radius: 10px;
 	color: #BBB;
+}
+.slant {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 100px;
+  height: 100px;
+  z-index: 0;
 }
 .project1 {
 	background: -webkit-linear-gradient(30deg, #085078 10%, #85D8CE 90%); /* Chrome 10+, Saf5.1+ */
