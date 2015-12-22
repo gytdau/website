@@ -46,6 +46,6 @@ window.onload = function() {
         o = values[i];
         setTimeout(function() {
             nextText();
-        }, i * 250)
+        }, (i * 250) + 1000)
     }
 };
