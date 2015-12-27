@@ -1,12 +1,12 @@
 
-.project1, .project2, .project3, .project-outline {
+.project1, .project2, .project3, .project4, .project-outline {
     padding: 2.4em 0;
     font-size: 2em;
     margin: 0.2em;
     color: white;
     text-align: center;
 }
-.project2 {
+.project2, .project4 {
     margin-top: 0.8em;
 }
 .project-outline {
