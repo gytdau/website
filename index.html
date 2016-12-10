@@ -1,89 +1,136 @@
-<!DOCTYPE HTML>
-<!--
-	Alpha by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Gytis Daujotas</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/custom.css" />
-	</head>
-	<body class="landing">
-		<div id="page-wrapper">
+<head>
+	<meta charset="utf-8">
+	<title>Gytis Daujotas</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js">
+	</script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js">
+	</script>
+	<link href="index.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Space+Mono:400,700" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+	<script src="jquery.waypoints.min.js">
+	</script>
+	<script src="index.js">
+	</script>
+</head>
+<body>
+	<div class="landing-banner container">
+    <div class="col-lg-9 offset-lg-3 offset-sm-1">
+      <h1><div class="hidden que-1">H</div><div class="hidden que-2">e</div><div class="hidden que-3">y</div><div class="hidden que-4">.</div></h1>
+      <h3 class="hidden que-5">I'm Gytis. Nice to meet you.</h3>
+      <h3 class="hidden que-6">Let's get to know each other.</h3>
 
-
-			<!-- Banner -->
-				<section id="banner">
-					<div class="large" id="title">
-						GytDau.com
-					</div>
-				</section>
-
-			<!-- Main -->
-				<section id="main" class="container">
-
-					<section class="box special">
-						<header class="major">
-							<h2>Web Development Enthusiast</h2>
-							<p>Hey. I love building stuff for other people. Here's some cool stuff that I did.</p></header>
-					</section>
-					
-					<section class="box special">
-								<h2>Projects</h2>
-					</section>
-
-					<div class="row">
-						<div class="6u 12u(narrower)">
-							<a href="http://www.gytdau.com/color">
-							<section class="project1">
-								Color Pallete
-							</section>
-						</a>
-						</div>
-						<div class="6u 12u(narrower)">
-							<a href="http://draftil.gytdau.com">
-							<section class="project3">
-								Draftil
-							</section>
-							</a>
-						</div>
-						<div class="8u 12u(narrower)">
-							<a href="http://pass.gytdau.com">
-								<section class="project4">
-									Password Formulas
-								</section>
-							</a>
-						</div>
-						<div class="4u 12u(narrower)">
-							<a href="http://tome.gytdau.com">
-							<section class="project2">
-								Tome
-							</section>
-							</a>
-						</div>
-					</div>
-
-                    <section class="box special" style="margin-top: 40px;">
-                        <h3>Want to see more? Check out my <a href="http://www.github.com/gytdau/">Github account</a>, too. <br> Oh, and I also have a <a href="http://blog.gytdau.com">blog</a>.</h3>
-                    </section>
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="copyright">
-						<li>&copy; Gytis Daujotas. All rights reserved.</li><li>Based on <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
-
+    </div>
+	</div>
+	<div class="bio-banner container">
+		<div class="col-lg-6 col-md-12">
+			<h2 id="animate-waypoint">A <span class="to-highlight">big</span> fan<br>
+			of <span class="to-highlight">tiny</span><br>
+			projects.</h2>
 		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/animate-name.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-
-	</body>
+		<div class="col-lg-6 col-md-12">
+			<p>Hi! My name is Gytis Daujotas - I'm a 16 year old web developer in Dublin, Ireland.</p>
+			<p>I started playing around with code when I was 12, and to this day I still haven't gotten bored of it.</p>
+			<p>I love cycling, entrepreneurship, and team work.</p>
+		</div>
+	</div>
+	<div class="projects-banner container">
+		<div class="row">
+			<div class="col-lg-4 offset-lg-4">
+				<div class="project">
+					<div class="project-preview">
+					<div class="project-preview-title">
+						<div class="project-title-buttons">
+							<div class="project-btn project-btn-red"></div>
+							<div class="project-btn project-btn-yellow"></div>
+							<div class="project-btn project-btn-green"></div>
+						</div>
+					</div><img alt="Card image cap" class="project-preview-image" src="images/examli-one.png"></div>
+					<h3>Exam.li</h3>
+					<p>Web app for secondary school subject revision<span class="date">—&nbsp;June 2016</span> <a href="examli.html">More...</a></p>
+				</div>
+				<div class="project">
+					<div class="project-preview"><img alt="Card image cap" class="project-preview-image" src="images/adventofcode.jpg"></div>
+					<h3>Advent of Code Solutions</h3>
+					<p>This time: written in JS, tested with Mocha!<span class="date">—&nbsp;December 2016</span> <a href="adventofcode.html">More...</a></p>
+				</div>
+				<div class="project">
+					<div class="project-preview">
+					<div class="project-preview-title">
+						<div class="project-title-buttons">
+							<div class="project-btn project-btn-red"></div>
+							<div class="project-btn project-btn-yellow"></div>
+							<div class="project-btn project-btn-green"></div>
+						</div>
+					</div><img alt="Card image cap" class="project-preview-image" src="images/dropbloq-two.png"></div>
+					<h3>Dropbloq</h3>
+					<p>Tiny webgame made in one weekend with friends <span class="date">—&nbsp;September 2016</span> <a href="dropbloq.html">More...</a></p>
+				</div>
+				<div class="project">
+					<div class="project-preview">
+					<div class="project-preview-title">
+						<div class="project-title-buttons">
+							<div class="project-btn project-btn-red"></div>
+							<div class="project-btn project-btn-yellow"></div>
+							<div class="project-btn project-btn-green"></div>
+						</div>
+					</div><img alt="Card image cap" class="project-preview-image" src="images/habiten-three.png"></div>
+					<h3>Habiten</h3>
+					<p>Habit-tracking web app <span class="date">—&nbsp;April 2016</span> <a href="habiten.html">More...</a></p>
+				</div>
+        <div class="project">
+					<div class="project-preview">
+					<div class="project-preview-title">
+						<div class="project-title-buttons">
+							<div class="project-btn project-btn-red"></div>
+							<div class="project-btn project-btn-yellow"></div>
+							<div class="project-btn project-btn-green"></div>
+						</div>
+					</div><img alt="Card image cap" class="project-preview-image" src="images/draftil-one.png"></div>
+					<h3>Draftil</h3>
+					<p>A word processor without a delete button <span class="date">—&nbsp;November 2015</span> <a href="draftil.html">More...</a></p>
+				</div>
+			</div>
+		</div>
+    <div class="text-sm-center">
+      <p>
+        I have a lot more of my stuff<br /> on my <a href="http://www.github.com/gytdau">Github account!</a>
+      </p>
+    </div>
+	</div>
+  <div class="contact-banner container">
+		<div class="col-lg-6 col-md-12">
+			<p>Twitter</p>
+      <p>
+        @gytdau
+      </p>
+      <hr />
+      <p>Email</p>
+      <p>
+        gytdau@gmail.com
+      </p>
+		</div>
+    <div class="col-lg-6 col-md-12">
+      <h2>Let's talk.</h2>
+    </div>
+	</div>
+  <div class="footer-banner">
+    <div class="container">
+    <div class="col-lg-6">
+      <p>
+        Made with all of the love in Ireland.
+      </p>
+      <p>
+        Copyright Gytis Daujotas, 2016.
+      </p>
+			<p>
+				(Amazingly, I managed to get this entire site done in one day! I need better work-life balance.)
+			</p>
+    </div>
+  </div>
+</div>
+</body>
 </html>

@@ -1,2 +1,3 @@
-# personalSite
-This is the repo for my personal site, which you can see live at [gytdau.com](http://www.gytdau.com). I'm using Github Pages to host it. Credit goes to HTML5 UP for the template I modified.
+# gytdau.com
+
+Now celebrating Version 2.0! This time: no templates. Pure, hand-built, eblow-greased, coffee-induced, tailor-made artisinal code. Of the highest rarity.
