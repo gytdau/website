@@ -142,3 +142,10 @@ a:hover {
 .date {
   opacity: 0.5;
 }
+.webring {
+  height: 2rem;
+  box-shadow: none;
+}
+.webring > img {
+  height: 100%;
+}
