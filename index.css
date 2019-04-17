@@ -162,6 +162,8 @@ p {
   max-width: 40em;
   margin: auto;
   margin-top: 10vh;
+  min-height: 40em;
+  overflow: hidden;
 }
 
 .wave {
@@ -176,8 +178,6 @@ p {
   border-radius: 20px !important;
 }
 .project-banner {
-  height: 100vh;
-  max-height: 100vh;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -188,6 +188,7 @@ p {
   justify-content: center;
   flex-grow: 2;
   color: white;
+  padding: 3em;
 }
 .row {
   display: flex;
