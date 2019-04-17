@@ -1,7 +1,7 @@
 .landing-banner {
   height: 100vh;
   width: 100%;
-  background: #3EC8AC no-repeat;
+  background: #3ec8ac no-repeat;
   display: flex;
   align-items: center;
 }
@@ -24,13 +24,13 @@
   padding: 4em 0;
 }
 .footer-banner {
-  background-color: #6E60A0;
+  background-color: #6e60a0;
   padding: 4em 0;
   color: rgba(255, 255, 255, 0.25);
   width: 100%;
 }
 .project-page-title {
-  background-color: #FAB57A;
+  background-color: #fab57a;
   padding: 4em 0;
 }
 .project-page-brief {
@@ -44,19 +44,23 @@
 }
 * {
   font-variant-ligatures: none;
-   -webkit-font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
 }
-p, h3, div {
-  font-family: 'Space Mono', monospace;
+p,
+h3,
+div {
+  font-family: "Space Mono", monospace;
   font-variant-ligatures: none;
   -webkit-font-variant-ligatures: none;
 }
 .highlight {
-  box-shadow: inset 0 -20px 0 #3EC8AC;
+  box-shadow: inset 0 -20px 0 #3ec8ac;
   transition: box-shadow 0.5s;
 }
-h1, h2, h4 {
-  font-family: 'Montserrat', serif;
+h1,
+h2,
+h4 {
+  font-family: "Montserrat", serif;
 }
 h1 {
   font-size: 10em;
@@ -64,7 +68,7 @@ h1 {
 h1 > div {
   font-size: 1em;
   display: inline-block;
-  font-family: 'Montserrat', serif
+  font-family: "Montserrat", serif;
 }
 .hidden {
   visibility: hidden;
@@ -81,7 +85,7 @@ p {
 .projects-banner {
   padding: 4em;
   width: 100%;
-  background-color: #4E90A4;
+  background-color: #4e90a4;
   color: white;
 }
 .project-preview {
@@ -89,6 +93,9 @@ p {
   width: 100%;
   border-radius: 5px;
   overflow: hidden;
+}
+.project-preview-container {
+  padding: 3em;
 }
 .project-preview-image {
   width: 100%;
@@ -127,16 +134,7 @@ p {
 .project-title-buttons {
   float: left;
 }
-a {
-  box-shadow: inset 0 -3px 0 #3EC8AC;
-  color: #3EC8AC;
-}
-a:hover {
-  text-decoration: none;
-  color: white;
-  box-shadow: inset 0 -3px 0 #3EC8AC;
-  background: #3EC8AC
-}
+
 .project {
   margin: 5em 0;
 }
@@ -149,7 +147,70 @@ a:hover {
 }
 .webring > img {
   height: 100%;
-} 
-.que-2, .que-3, .que-4 {
+}
+.que-2,
+.que-3,
+.que-4 {
   margin-left: -0.27em;
+}
+.tutorello {
+  background-color: blue;
+}
+.waves {
+  perspective: 600px;
+}
+
+.wave {
+  transform: rotateY(0deg);
+  margin-top: 0;
+  top: 0;
+  border-radius: 4px;
+  position: absolute;
+  margin: 2em;
+}
+.wave-2 {
+  border-radius: 20px !important;
+}
+.project-banner {
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.project-banner-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 2;
+  color: white;
+}
+.row {
+  display: flex;
+  height: 100%;
+}
+
+.tutorello {
+  background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+}
+
+.examlearn {
+  background: linear-gradient(to top, #8e2de2, #4a00e0);
+}
+
+.other {
+  background: linear-gradient(to top, #00b09b, #96c93d);
+}
+.client-tag {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+.empty {
+  height: 7em;
+  margin-bottom: -2em;
+  background: #eee;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+body {
+  overflow-x: hidden;
 }
