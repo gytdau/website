@@ -200,6 +200,8 @@ p {
 
 .other {
   background: linear-gradient(to top, #00b09b, #96c93d);
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 .client-tag {
   font-size: 0.7em;
