@@ -193,6 +193,10 @@ p {
 .row {
   display: flex;
   height: 100%;
+  overflow: hidden;
+}
+.waves-container {
+  overflow: hidden;
 }
 
 .tutorello {
