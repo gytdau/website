@@ -46,15 +46,15 @@ function shadow(scale) {
   }
 }
 
-new ScrollMagic.Scene({ triggerElement: "#trigger-1", duration: duration })
+new ScrollMagic.Scene({ triggerElement: "#trigger-1", duration: duration, tweenChanges: true })
   .setTween("#animate-1-1", { scale: 0.8, top: offset(0.25), transform: "rotateY(30deg)" }) // the tween durtion can be omitted and defaults to 1
   .addTo(controller);
 
-new ScrollMagic.Scene({ triggerElement: "#trigger-1", duration: duration })
+new ScrollMagic.Scene({ triggerElement: "#trigger-1", duration: duration, tweenChanges: true })
   .setTween("#animate-1-2", { scale: 0.8, top: offset(0.15), transform: "rotateY(-10deg)" }) // the tween durtion can be omitted and defaults to 1
   .addTo(controller);
 
-new ScrollMagic.Scene({ triggerElement: "#trigger-1", duration: duration })
+new ScrollMagic.Scene({ triggerElement: "#trigger-1", duration: duration, tweenChanges: true })
   .setTween("#animate-1-3",
     {
       scale: 1.2,
@@ -65,15 +65,15 @@ new ScrollMagic.Scene({ triggerElement: "#trigger-1", duration: duration })
     })
   .addTo(controller);
 
-new ScrollMagic.Scene({ triggerElement: "#trigger-2", duration: duration })
+new ScrollMagic.Scene({ triggerElement: "#trigger-2", duration: duration, tweenChanges: true })
   .setTween("#animate-2-1", { scale: 0.8, top: offset(0.25), transform: "rotateY(30deg)" }) // the tween durtion can be omitted and defaults to 1
   .addTo(controller);
 
-new ScrollMagic.Scene({ triggerElement: "#trigger-2", duration: duration })
+new ScrollMagic.Scene({ triggerElement: "#trigger-2", duration: duration, tweenChanges: true })
   .setTween("#animate-2-2", { scale: 0.8, top: offset(0.15), transform: "rotateY(-10deg)" }) // the tween durtion can be omitted and defaults to 1
   .addTo(controller);
 
-new ScrollMagic.Scene({ triggerElement: "#trigger-2", duration: duration })
+new ScrollMagic.Scene({ triggerElement: "#trigger-2", duration: duration, tweenChanges: true })
   .setTween("#animate-2-3",
     {
       top: offset(0.2),
