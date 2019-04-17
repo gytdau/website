@@ -180,6 +180,7 @@ p {
 .project-banner {
   min-height: 100vh;
   overflow: hidden;
+  display: flex;
 }
 .project-banner-copy {
   display: flex;
@@ -192,7 +193,7 @@ p {
 }
 .row {
   display: flex;
-  height: 100%;
+  flex-grow: 2;
   overflow: hidden;
 }
 .waves-container {
