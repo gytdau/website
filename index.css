@@ -157,7 +157,10 @@ p {
   background-color: blue;
 }
 .waves {
-  perspective: 600px;
+  perspective: 400px;
+  height: 100%;
+  max-width: 40em;
+  margin: auto;
 }
 
 .wave {
