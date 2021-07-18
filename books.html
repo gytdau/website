@@ -9,15 +9,34 @@
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
+    <style>
+        table,
+        tr,
+        td {
+            border: 0;
+            background-color: white;
+        }
+
+        td:first-of-type,
+        .exceptional {
+            color: #0074D9;
+        }
+
+        td:nth-of-type(2) {
+            font-style: italic;
+        }
+    </style>
 </head>
 
 <body>
     <header>Bookshelf</header>
     <div class="content">
         <p>I'm trying to understand reality better by reading books. Though this list looks long, I've read far less
-            than half of these, and I rarely finish a book all the way through.</p>
+            than half of these, and I rarely finish a book all the way through. There are so many good books available
+            to us, and I'm incredibly grateful for the technological progress that made this happen.</p>
         <p>Some of these books I particularly liked, but those preferences are probably arbitrary and a reflection of
             what I've read before.</p>
+        <p class="exceptional">● means good</p>
         <div class="books">
 
             <table>
