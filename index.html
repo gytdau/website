@@ -1,263 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Gytis Daujotas</title>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <link href="index.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Space+Mono:400,700" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
-  <script src="jquery.waypoints.min.js"></script>
-  <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gytis Daujotas</title>
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+
 </head>
 
 <body>
-  <div class="landing-banner ">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 offset-lg-3">
-          <h1>
-            <div class="hidden que-1">H</div>
-            <div class="hidden que-2">e</div>
-            <div class="hidden que-3">y</div>
-            <div class="hidden que-4">.</div>
-          </h1>
-          <h3 class="hidden que-5">I'm Gytis. Nice to meet you.</h3>
-          <h3 class="hidden que-6">Let's get to know each other.</h3>
-        </div>
-      </div>
+    <header>
+        Hi, I'm Gytis
+    </header>
+    <div class="content">
+        <p>Nice to meet you! Right now, I'm interning at Stripe. More broadly, I'm trying to learn a lot
+            about the world and figure out what to work on.</p>
+        <p>I tinker around with a lot of stuff that you can find on my <a href="https://www.github.com/gytdau">github
+                account.</a> I'm pretty passionate about software engineering. But among friends, I talk a lot about
+            philosophy, books, and a scattering of dumb ideas.</p>
+        <a href="books.html">Bookshelf</a>
     </div>
-  </div>
-  <div class="bio-banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <h2 id="animate-waypoint">
-            A <span class="to-highlight">big</span> fan<br />
-            of <span class="to-highlight">tiny</span><br />
-            projects.
-          </h2>
-        </div>
-        <div class="col-lg-6 col-md-12">
-          <p>
-            Hi! My name is Gytis Daujotas - I'm a full stack web developer in
-            Dublin, Ireland.
-          </p>
-          <p>
-            I started playing around with code when I was 12, and to this day
-            I still haven't gotten bored of it.
-          </p>
-          <p>
-            Have an exciting idea? Let's
-            <a href="mailto:gytdau@gmail.com">work together on something awesome.</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="project-banner tutorello">
-    <div id="trigger-1" class="spacer s1"></div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 waves-container">
-        <div class="waves">
-          <img src="images/tutorello-1.png" class="wave wave-1" id="animate-1-1" style="left: 1em;" />
-          <img src="images/tutorello-2.png" class="wave wave-1" id="animate-1-2" style="right: 0;" />
-          <img src="images/tutorello-3.png" class="wave wave-1" id="animate-1-3" style="right: 0;" />
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-12 project-banner-copy">
-        <h3>Tutorello</h3>
-        <p>Platform for online tutoring</p>
-        <div>
-          <a href="https://www.tutorello.com" class="btn btn-outline-light">Open webapp</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="project-banner examlearn">
-    <div id="trigger-2" class="spacer s1"></div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 waves-container">
-        <div class="waves">
-          <img src="images/examlearn-1.png" class="wave wave-2" id="animate-2-1" style="left: 1em;" />
-          <img src="images/examlearn-2.png" class="wave wave-1" id="animate-2-2" style="right: 0;" />
-          <img src="images/examlearn-3.png" class="wave wave-1" id="animate-2-3"
-            style="right: 0; transform: scale(0.5); transform-origin: 100% 50%; margin-top: 10%;" />
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-12 project-banner-copy">
-        <h3>ExamLearn</h3>
-        <p>Subscription-based Irish study notes</p>
-        <div>
-          <a href="examlearn.html" class="btn btn-light">See writeup</a>
-          <a href="https://www.examlearn.ie" class="btn btn-outline-light">Open webapp</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="project-banner-other other">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 project-preview-container">
-          <div class="project-preview">
-            <div class="project-preview-title">
-              <div class="project-title-buttons">
-                <div class="project-btn project-btn-red"></div>
-                <div class="project-btn project-btn-yellow"></div>
-                <div class="project-btn project-btn-green"></div>
-              </div>
-            </div>
-            <img alt="Card image cap" class="project-preview-image" src="images/habiten-three.png" />
-          </div>
-        </div>
-        <div class="col-md-6 project-banner-copy">
-          <h3>Habiten</h3>
-          <p>
-            Habit-tracking web app <span class="date">—&nbsp;April 2016</span>
-          </p>
-          <a href="habiten.html" class="btn btn-light">See writeup</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5 project-preview-container">
-          <div class="project-preview">
-            <div class="project-preview-title">
-              <div class="project-title-buttons">
-                <div class="project-btn project-btn-red"></div>
-                <div class="project-btn project-btn-yellow"></div>
-                <div class="project-btn project-btn-green"></div>
-              </div>
-            </div>
-            <img alt="Card image cap" class="project-preview-image" src="images/directory.png" />
-          </div>
-        </div>
-        <div class="col-md-6 project-banner-copy">
-          <h3>Directory</h3>
-          <p>
-            Open sourced collection of values
-            <span class="date">—&nbsp;Current</span>
-          </p>
-          <div>
-            <a href="https://directory.gytis.co" class="btn btn-outline-light">Open webapp</a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5 project-preview-container">
-          <div class="project-preview">
-            <div class="project-preview-title">
-              <div class="project-title-buttons">
-                <div class="project-btn project-btn-red"></div>
-                <div class="project-btn project-btn-yellow"></div>
-                <div class="project-btn project-btn-green"></div>
-              </div>
-            </div>
-            <img alt="Card image cap" class="project-preview-image" src="images/nanojournal.png" />
-          </div>
-        </div>
-        <div class="col-md-6 project-banner-copy">
-          <h3>Nanojournal</h3>
-          <p>
-            Minimalist journalling method to reach a higher state of focus.
-            <span class="date">—&nbsp;April 2019</span>
-          </p>
-          <div>
-            <a href="nanojournal.html" class="btn btn-light">See writeup</a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5 project-preview-container">
-          <div class="project-preview empty">
-            <div class="project-preview-title">
-              <div class="project-title-buttons">
-                <div class="project-btn project-btn-red"></div>
-                <div class="project-btn project-btn-yellow"></div>
-                <div class="project-btn project-btn-green"></div>
-              </div>
-            </div>
-          </div>
-          <div class="project-preview empty">
-            <div class="project-preview-title">
-              <div class="project-title-buttons">
-                <div class="project-btn project-btn-red"></div>
-                <div class="project-btn project-btn-yellow"></div>
-                <div class="project-btn project-btn-green"></div>
-              </div>
-            </div>
-          </div>
-          <div class="project-preview empty">
-            <div class="project-preview-title">
-              <div class="project-title-buttons">
-                <div class="project-btn project-btn-red"></div>
-                <div class="project-btn project-btn-yellow"></div>
-                <div class="project-btn project-btn-green"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 project-banner-copy">
-          <h3>Everything else</h3>
-          <p>An ever-increasing collection of my stuff lives on Github.</p>
-          <a href="https://github.com/gytdau" class="btn btn-outline-light">Explore</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="contact-banner">
-    <div class="container">
-      <div class="col-lg-6 col-md-12 mb-4">
-        <h4>Let's add to this list by working together.</h4>
-      </div>
-      <div class="col-lg-6 col-md-12">
-        <div class="card mb-4">
-          <div class="card-body">
-            <p>Twitter</p>
-            <p>
-              @gytdau
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <p>Email</p>
-            <p>
-              gytdau@gmail.com
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <p>
-            Made with all of the love in Ireland.
-          </p>
-        </div>
-        <div class="col-lg-6 text-right text-white">
-          <div class="webring">
-            <a href="https://webring.xxiivv.com/#random" class="webring" target="_blank">
-              <img src="https://webring.xxiivv.com/icon.white.svg" />
-            </a>
-          </div>
-          Proudly part of the
-          <a href="https://webring.xxiivv.com">Webring.</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="index.js"></script>
 </body>
 
 </html>
