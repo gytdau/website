@@ -1,4 +1,5 @@
-const db = require("better-sqlite3")("/home/gytdau/Calibre/metadata.db", {})
+const homedir = require('os').homedir();
+const db = require("better-sqlite3")(homedir + '/Books/metadata.db', {});
 const fs = require("fs")
 
 const books = db
