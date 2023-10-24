@@ -10,11 +10,11 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 
 **I worked on a bunch of things.** Most of my stuff lives on [Github](https://github.com/gytdau)
 
-**I usually have strong opinions.** Of course, loosely held. [Blog](https://blog.gytis.co)
-
 **I'd love to talk.** Reach me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
 
 ---
+
+Some of my posts:
 
 <ul>
   {% for post in site.posts %}
