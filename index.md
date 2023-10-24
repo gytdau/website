@@ -13,3 +13,13 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 **I usually have strong opinions.** Of course, loosely held. [Blog](https://blog.gytis.co)
 
 **I'd love to talk.** Reach me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
+
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
