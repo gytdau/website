@@ -14,7 +14,17 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 
 ---
 
-Some of my posts:
+**Lists I'm keeping:**
+
+<ul>
+  {% for post in site.lists %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+**Some of my posts:**
 
 <ul>
   {% for post in site.posts %}
