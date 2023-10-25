@@ -12,6 +12,8 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 
 Email me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
 
+---
+
 **Some beliefs:**
 
 - Crossing the fractal edge of knowledge is qualitatively different than working within it
