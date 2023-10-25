@@ -1,5 +1,6 @@
 ---
 layout: list
+tags: #lists
 ---
 
 # People who keep lists

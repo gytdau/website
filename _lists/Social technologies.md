@@ -1,5 +1,6 @@
 ---
 layout: list
+tags: #lists
 ---
 
 # Social technologies
