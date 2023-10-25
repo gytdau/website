@@ -23,7 +23,7 @@ Email me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
 - Massive input can beat spaced repetition
   - Sometimes learning is done best by volume (writing a lot of code, reading a lot of stuff)
   - Reading a lot of books is a good way to do this
-  - Not always true, but true surprisingly often
+  - True of surprisingly many domains
 
 ---
 
