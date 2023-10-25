@@ -6,11 +6,22 @@ layout: default
 
 Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastructure startup for logistics. I previously interned at AWS and Stripe.
 
-**I believe that massive input is superior to spaced repetition.** When information is almost free, only a vanishingly small fraction is worth paying attention to. [Bookshelf](books.html)
+[Bookshelf](/books)
 
-**I worked on a bunch of things.** Most of my stuff lives on [Github](https://github.com/gytdau)
+[Github](https://github.com/gytdau)
 
-**I'd love to talk.** Reach me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
+Email me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
+
+**Some beliefs:**
+
+- Crossing the fractal edge of knowledge is qualitatively different than working within it
+  - If human knowledge is truly fractal, then it sometimes has pinch points which open up an entire new space to explore
+  - Great discoveries are great because they are like this
+  - It's worth paying attention to the obsessed and the crazy
+- Massive input can beat spaced repetition
+  - Sometimes learning is done best by volume (writing a lot of code, reading a lot of stuff)
+  - Reading a lot of books is a good way to do this
+  - Not always true, but true surprisingly often
 
 ---
 
