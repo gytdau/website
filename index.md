@@ -16,8 +16,8 @@ Email me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
 
 **Some beliefs:**
 
-- Crossing the fractal edge of knowledge is qualitatively different than working within it
-  - If human knowledge is truly fractal, then it sometimes has pinch points which open up an entire new space to explore
+- Breaking through 'pinch points' in knowledge is qualitatively different than other kinds of work
+  - If human knowledge is truly fractal, then it sometimes has [pinch points](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandelbrot_Set_%E2%80%93_Periodicities_coloured.png) which open up an entire new space to explore
   - Great discoveries are great because they are like this
   - It's worth paying attention to the obsessed and the crazy
 - Massive input can beat spaced repetition
@@ -27,20 +27,22 @@ Email me here: [gytdau@gmail.com](mailto:gytdau@gmail.com)
 
 ---
 
-**Lists I'm keeping:**
+**Some of my posts:**
 
 <ul>
-  {% for post in site.lists %}
+  {% for post in site.posts limit:3 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
-**Some of my posts:**
+<a href="/posts">See all posts</a>
+
+**Lists I'm keeping:**
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.lists %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
