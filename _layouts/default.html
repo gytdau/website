@@ -10,10 +10,15 @@
     <meta name="color-scheme" content="dark light" />
     <!-- Stylesheet that includes Bootstrap dark mode & custom stylesheet -->
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css"
     />
+
     <!-- Meta Theme Color is also supported on Safari and Chrome -->
     <meta
       name="theme-color"
@@ -27,11 +32,7 @@
     />
   </head>
 
-  <body class="d-flex flex-column h-100">
-    <div class="container">
-      <div class="page col-md-8 offset-md-2">
-        <div class="body">{{ content }}</div>
-      </div>
-    </div>
+  <body>
+    {{ content }}
   </body>
 </html>

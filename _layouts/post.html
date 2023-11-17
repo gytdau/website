@@ -2,14 +2,17 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<small>{{ page.date | date: '%F' }}</small>
-<div style="padding-top: 20px">{{ content }}</div>
-<hr />
-<div style="padding-top: 20px; padding-bottom: 20px; font-size: 0.8em">
+<header>
+  <hgroup>
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.date | date: '%F' }}</h2>
+  </hgroup>
+</header>
+<main>{{ content }}</main>
+<footer>
   <div>
     Submit
     <a href="https://forms.gle/uRtMzByBiNXjLggH9">anonymous feedback</a> to
     Gytis (or email him at gytdau@gmail.com)
   </div>
-</div>
+</footer>
