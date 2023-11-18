@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Life in the Great Future of Consumer Surplus"
+title: "My life in the great future of consumer surplus"
 ---
 
 It has been three years since GPT3 was released in June 2020, and now the future has arrived. I wanted to take a moment to scan my surroundings and see how much of the shiny future stuff has seeped into my environment.
