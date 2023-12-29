@@ -3,9 +3,9 @@ layout: technical_post
 title: "GPU Memory"
 ---
 
-> “AI compute is memory plus networking”
+> Memory is the treasury and guardian of all things.
 >
-> &mdash; _[Venkatesh Rao](https://studio.ribbonfarm.com/p/a-camera-not-an-engine)_
+> &mdash; Cicero
 
 ## Introduction
 
@@ -40,7 +40,7 @@ We can look at our handy dandy made-up chart, and see that the theoretical maxim
 
 ## Details of GPU Programming
 
-How can we write programs so that they are slow to run? Fortunately, GPU programming gives us many ways to do much worse than the theoretical bound.
+How can we write programs so that they are slow to run? Fortunately, GPU programming gives us many ways to do much worse than the theoretical bound. Let’s look at a small sampling:
 
 ### Divergence
 
