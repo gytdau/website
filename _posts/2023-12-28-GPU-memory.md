@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: technical_post
 title: "GPU Memory"
 ---
 
@@ -7,13 +7,15 @@ title: "GPU Memory"
 >
 > &mdash; _[Venkatesh Rao](https://studio.ribbonfarm.com/p/a-camera-not-an-engine)_
 
+## Introduction
+
 Many programmers are familiar with how the CPU works -- or at least in enough details to do their job. This post will build from this understanding to explain some of the important pillars of GPU programming, including roofline charts, threads, memory loads, and the memory hierarchy itself.
+
+## High Level Considerations
 
 A single CPU core executes instructions sequentially. Computers with a single CPU core can appear to be doing multiple things at the same time, but they’re actually quickly switching between tasks. Because a core can execute only one thread of execution at a time, they're designed to be fast.
 
-![alt_text](/assets/gpu/cpu.png "image_tooltip"){:class="img-responsive"}
-
-![alt_text](/assets/gpu/gpu.png "image_tooltip"){:class="img-responsive"}
+![alt_text](/assets/gpu/gpuvscpu.png "image_tooltip"){:class="img-responsive"}
 
 In comparison, GPUs are focused on large workloads that can take more time to complete. The speed of GPUs depends on two primary factors:
 
@@ -36,19 +38,25 @@ Let’s look at an algorithm which sums up a list of numbers. It has to load in 
 
 We can look at our handy dandy made-up chart, and see that the theoretical maximum is 2 million FLOPs. For some algorithms we can increase the operational intensity, and move the limit up and to the right. Sadly, we can’t do any more than that for this algorithm. But we can do much worse, for instance, if we wrote our program in a bad way.[^2]
 
-## Writing Bad Programs
+## Details of GPU Programming
 
 How can we write programs so that they are slow to run? Fortunately, GPU programming gives us many ways to do much worse than the theoretical bound.
 
+### Divergence
+
 In the CUDA model, which most of the important GPUs follow, a large number of threads execute the same instructions at the same time. An interesting consequence of this fact is that the compute units (the core that execute the operations) cannot diverge from each other, i.e. cannot start executing different instructions. If we have a conditional statement that even one thread is executing, the rest of the compute units have to stay idle and wait until the branch is over. Conditional statements kill performance.
+
+### Memory Loads
 
 Like all of reality, GPU programming is details all the way down. Another detail is that memory loads come in a handful of preset sizes, from 32 to 512 bytes. They read contiguous memory from the memory bank, as if the data is in slots that must be read all at once.
 
-For instance, loading in the bytes from the addresses 230 to 330 would leave at least 32 bytes transferred but not actually used.[^3]
+Say we're loading data from the memory addresses 230 to 330. Because these addresses are not aligned to the sizes of the memory loads, this would leave at least 32 bytes transferred but not actually used.[^3]
 
 ![alt_text](/assets/gpu/loads.png "image_tooltip"){:class="img-responsive"}
 
 A good way to shoot oneself in the foot is by scrambling up the data in memory so that the GPU has to load in unused data and prematurely saturate your memory bandwidth. As a consequence, a healthy mysticism is to round up sizes of data to the nearest power of 2, even if the extra computation is wasted,  because the memory loads and compiler-level optimizations can often be much more efficient[^4].
+
+### Multiprocessors
 
 So far, we have a picture of GPUs where, once data is loaded into the GPU, all the threads can access it at the same time. In such a world, all of the threads would have to be doing the same thing at once. We couldn't run multiple programs, nor have any of the computation go faster than the rest, resulting in a very slow and limited GPU.
 
@@ -80,7 +88,7 @@ Because modern AI is bottlenecked by memory bandwidth, optimizations usually fal
 
 This intricate hierarchy serves an important purpose in making GPU programs fast and efficient. Now that we know, we're better equipped to wield its powers, including optimizing our silly little local models, at least until Transformer ASICs come out and totally crush us. Thankfully, that can be a story for a later day.
 
-### Also read
+## Other Reading
 
 - [https://horace.io/brrr_intro.html](https://horace.io/brrr_intro.html)
 

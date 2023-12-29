@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<header>
+  <hgroup>
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.date | date: '%F' }}</h2>
+  </hgroup>
+</header>
+<main>
+  <div class="toc">{% include toc.html html=content %}</div>
+  {{ content }}
+</main>
+<footer>
+  <div>
+    Submit
+    <a href="https://forms.gle/uRtMzByBiNXjLggH9">anonymous feedback</a> to
+    Gytis (or email him at gytdau@gmail.com)
+  </div>
+</footer>
