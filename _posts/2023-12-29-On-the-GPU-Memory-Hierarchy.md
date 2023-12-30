@@ -90,11 +90,11 @@ This intricate hierarchy serves an important purpose in making GPU programs fast
 
 ## Other Reading
 
-- [https://horace.io/brrr_intro.html](https://horace.io/brrr_intro.html)
+- [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
 
 ## Notes
 
 [^2]: It may seem strange that we combine the operations per data load into a new unit (the operational intensity) this way. We do this because they are related to each other. If you take an algorithm and make it do twice as much work, it would have the same theoretical bound as if you made it load half as much data.
 [^3]: This is quite tame! It can get even worse if fetching small amounts of data non-contiguously, so it's worth putting a lot of thought into data representation.
-[^4]: https://twitter.com/karpathy/status/1621578354024677377
-[^5]: This assumes a p3.2xlarge EC2 instance from AWS, which is already not very large in modern terms! https://instances.vantage.sh/aws/ec2/p3.2xlarge
+[^4]: [A particularly salient example.](https://twitter.com/karpathy/status/1621578354024677377)
+[^5]: This assumes a [p3.2xlarge](https://instances.vantage.sh/aws/ec2/p3.2xlarge) EC2 instance from AWS, which is already not very large in modern terms!
