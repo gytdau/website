@@ -26,7 +26,7 @@ When writing a GPU program, it can be helpful to take these two parameters into 
 
 ![alt_text](/assets/gpu/roofline.png "image_tooltip"){:class="img-responsive"}
 
-In this graph, the highest FLOPs a specific algorithm can get is plotted on the vertical axis. On the horizontal axis is a new term - **operational intensity** - which is how many _floating-point operations_ are done per _floating-point loaded in_[^1].
+In this graph, the highest FLOPs a specific algorithm can get is plotted on the vertical axis. On the horizontal axis is a new term - **operational intensity** - which is how many _floating-point operations_ are done per _floating-point loaded in_.
 
 The shape of the roofline chart is triangular at the beginning, because at low operational intensities, we’re mostly waiting for data to be loaded in. As the operational intensity increases, we become compute-bound, and so the FLOPs cap out.
 
@@ -94,8 +94,7 @@ This intricate hierarchy serves an important purpose in making GPU programs fast
 
 ## Notes
 
-[^1]: We divide it this way to normalize against the FLOPs axis.
 [^2]: It may seem strange that we combine the operations per data load into a new unit (the operational intensity) this way. We do this because they are related to each other. If you take an algorithm and make it do twice as much work, it would have the same theoretical bound as if you made it load half as much data.
-[^3]: The GPU will issue whatever memory load sizes waste the least data. Whatever way you cut it, there’s still a performance penalty to non-aligned or non-contiguous data layouts.
-[^4]: https://stackoverflow.com/questions/48915810/what-does-contiguous-do-in-pytorch
-[^5]: This assumes a p3.2xlarge EC2 instance from AWS, which is already not very large in modern terms: https://instances.vantage.sh/aws/ec2/p3.2xlarge
+[^3]: This is quite tame! It can get even worse if fetching small amounts of data non-contiguously, so it's worth putting a lot of thought into data representation.
+[^4]: https://twitter.com/karpathy/status/1621578354024677377
+[^5]: This assumes a p3.2xlarge EC2 instance from AWS, which is already not very large in modern terms! https://instances.vantage.sh/aws/ec2/p3.2xlarge
