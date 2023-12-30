@@ -1,6 +1,6 @@
 ---
 layout: technical_post
-title: "GPU Memory"
+title: "On the GPU Memory Hierarchy"
 ---
 
 > Memory is the treasury and guardian of all things.
