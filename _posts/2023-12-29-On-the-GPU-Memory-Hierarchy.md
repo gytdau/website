@@ -30,7 +30,7 @@ In this graph, the highest FLOPs a specific algorithm can get is plotted on the 
 
 The shape of the roofline chart is triangular at the beginning, because at low operational intensities, we’re mostly waiting for data to be loaded in. As the operational intensity increases, we become compute-bound, and so the FLOPs cap out.
 
-This helps illuminate a fundamental trade-off. When an algorithm hits our theoretical bounds, we can either (a) do more work per number or (b) load in more numbers per work done. Most programs can be written in multiple forms, and we can use this graph to get hints about the theoretically highest-performing option.
+This helps illuminate a fundamental trade-off. When an algorithm hits our theoretical bounds, we can either (a) do more work per number or (b) load in more numbers per work done. Most programs can be written in multiple forms, and we can use this graph to get hints about the theoretically highest-performing option.[^1]
 
 Let’s look at an algorithm which sums up a list of numbers. It has to load in one number per operation (because it has to sum the number it just loaded in) and so the operational intensity is 1.
 
@@ -74,27 +74,33 @@ To get a sense of scale, let’s look at a computer set up for modern ML workloa
 
 1. **60gb** of RAM - this can store a small-to-medium sized model comfortably. Maybe it stores a small model, like Llama 2 7B, which only weighs 30gb.
 2. **3gb** of global memory on a V100 GPU. Already, we can expect our setup to spend a lot of time transferring weights from the host to the global memory, since the GPU can’t fit the entire model.
-3. **96kb** of shared memory, and that’s all we get to work with in the kernels we write. This is where data is transferred for our operation, like a matmul, to happen.
-4. **1kb** of registers, which are tiny stores of data inside the compute units. This can be thread-specific information for a program, so that threads can store private information, like a sum counter, or some variables.
+3. **96kb** of shared memory in a **multiprocessor**, and that’s all we get to work with in the kernels we write. This is where data is transferred for our operation, like a matmul, to happen.
+4. **1kb** of registers allocated per **thread**, which are tiny stores of data inside the compute units. This can be thread-specific information for a program, so that threads can store private information, like a sum counter, or some variables.
 
 We could even zoom out and think about how the data got to the computer’s RAM in the first place. Presumably it was from the computer’s storage, but was it solid state, or a hard disk, which is even slower and cheaper? Was it originally transferred from the network, and was it from a computer nearby in the data center, or was it far away?
 
 Any minor computation triggers a cascade of data transfers in and out of the place where the computation is performed.
 
-Because modern AI is bottlenecked by memory bandwidth, optimizations usually fall into one of a few categories:
+## The Great Memory Stagnation
 
-- Making the model smaller so there is less to transfer (quantization)
+One of the unfortunate surprises of GPU manufacturing is that memory seems hard to scale - even harder than transistors are. [^6] We focus so much on memory management (instead of just "getting more memory") because memory is already about half the manufacturing cost[^7] of modern GPUs. 
+
+Because modern AI is bottlenecked by memory bandwidth, optimizations usually fall into one of a handful of categories:
+
 - Finding ways to combine multiple operations into one (operator fusion)
+- Splitting the model up into pieces that each fit on their own GPU, so that we don't have to load the weights in and out of memory (pipeline parallelism)
+- Doing more work with weights when they're there, so as to amortize the time it took to load them in (speculative decoding, batch inference, and others)
 
-This intricate hierarchy serves an important purpose in making GPU programs fast and efficient. Now that we know, we're better equipped to wield its powers, including optimizing our silly little local models, at least until Transformer ASICs come out and totally crush us. Thankfully, that can be a story for a later day.
+This intricate memory hierarchy serves an important purpose in making GPU programs fast and efficient. Now that we know, we're better equipped to wield its powers, including optimizing our silly little local models, at least until Transformer ASICs come out and totally crush us. Thankfully, that can be a story for a later day.
 
-## Other Reading
-
-- [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
+_Thanks to Sophia Wisdom and Tom McCarthy for reviewing a draft of this post._
 
 ## Notes
 
+[^1]: You can also see this in another way: your achieved performance is the minimum of (a) the peak FLOPs used, or (b) the peak bandwidth used multiplied by the algorithm's operational intensity. Either way, there will usually only be one bottleneck at a time.
 [^2]: It may seem strange that we combine the operations per data load into a new unit (the operational intensity) this way. We do this because they are related to each other. If you take an algorithm and make it do twice as much work, it would have the same theoretical bound as if you made it load half as much data.
 [^3]: This is quite tame! It can get even worse if fetching small amounts of data non-contiguously, so it's worth putting a lot of thought into data representation.
 [^4]: [A particularly salient example.](https://twitter.com/karpathy/status/1621578354024677377)
 [^5]: This assumes a [p3.2xlarge](https://instances.vantage.sh/aws/ec2/p3.2xlarge) EC2 instance from AWS, which is already not very large in modern terms!
+[^6]: [TSMC's 3nm Node: No SRAM Scaling Implies More Expensive CPUs and GPUs](https://www.tomshardware.com/news/no-sram-scaling-implies-on-more-expensive-cpus-and-gpus#xenforo-comments-3788987)
+[^7]: [On Device AI – Double-Edged Sword](https://www.semianalysis.com/p/on-device-ai-double-edged-sword?r=5i3bf&selection=6c286018-5a79-42eb-9bfa-c518f6ba2efd&utm_campaign=post-share-selection&utm_medium=web#:~:text=Our%20data%20shows%20that%20HBM%20memory%20is%20nearly%20half%20the%20manufacturing%20costs%20of%20a%20server-class%20AI%20chip%20like%20the%20H100%20or%20TPUv5)
