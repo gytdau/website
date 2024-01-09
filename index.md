@@ -10,15 +10,15 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 ## Technical
 
 <div>
- <div style="margin-bottom: 1.5em; width: calc(50% - 20px);">
+ <div style="margin-bottom: 1.5em;">
    <a href="http://systemsynthesis.app">System Synthesis</a>
    <p>Learn the soft skill of writing good docs</p>
  </div>
- <div style="margin-bottom: 1.5em; width: calc(50% - 20px);">
+ <div style="margin-bottom: 1.5em;">
    <a href="/2023/12/29/On-the-GPU-Memory-Hierarchy.html">On the GPU Memory Hierarchy</a>
    <p>A guide to the interesting parts</p>
  </div>
- <div style="margin-bottom: 1.5em; width: calc(50% - 20px);">
+ <div style="margin-bottom: 1.5em;">
    <a href="/2024/01/09/The-wild-west-of-crypto.html">In the Wild West of Crypto Scams</a>
    <p>On front-running the scammers</p>
  </div>
