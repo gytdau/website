@@ -10,18 +10,20 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 ## Technical
 
 - [System Synthesis](http://systemsynthesis.app) - _Learn the soft skill of writing good docs_
-- [On the GPU memory hierarchy](/2023/12/29/On-the-GPU-Memory-Hierarchy.html)
+- [On the GPU Memory Hierarchy](/2023/12/29/On-the-GPU-Memory-Hierarchy.html)
 
 [See more on my Github...](https://github.com/gytdau)
 
 ## Writing
 
 <ul>
-  {% for post in site.posts limit:3 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+{% for post in site.posts limit:3 %}
+ {% unless post.tags contains 'technical' %}
+   <li>
+     <a href="{{ post.url }}">{{ post.title }}</a>
+   </li>
+ {% endunless %}
+{% endfor %}
 </ul>
 
 <a href="/posts">See all posts...</a>

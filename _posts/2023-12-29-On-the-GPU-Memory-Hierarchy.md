@@ -1,6 +1,7 @@
 ---
 layout: technical_post
 title: "On the GPU Memory Hierarchy"
+tags: technical
 ---
 
 > Memory is the treasury and guardian of all things.
@@ -83,7 +84,7 @@ Any minor computation triggers a cascade of data transfers in and out of the pla
 
 ## The Great Memory Stagnation
 
-One of the unfortunate surprises of GPU manufacturing is that memory seems hard to scale - even harder than transistors are. [^6] We focus so much on memory management (instead of just "getting more memory") because memory is already about half the manufacturing cost[^7] of modern GPUs. 
+One of the unfortunate surprises of GPU manufacturing is that memory seems hard to scale - even harder than transistors are. [^6] We focus so much on memory management (instead of just "getting more memory") because memory is already about half the manufacturing cost[^7] of modern GPUs.
 
 Because modern AI is bottlenecked by memory bandwidth, optimizations usually fall into one of a handful of categories:
 
