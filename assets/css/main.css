@@ -45,3 +45,11 @@ blockquote > p:last-child {
       max-width: 60%;
   }
 }
+
+.footnotes {
+  margin-top: 4em;
+  li, li:before, p {
+    font-size: 0.7rem;
+    /* font-style: italic; */
+  }
+}

@@ -9,8 +9,24 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 
 ## Technical
 
-- [System Synthesis](http://systemsynthesis.app) - _Learn the soft skill of writing good docs_
-- [On the GPU Memory Hierarchy](/2023/12/29/On-the-GPU-Memory-Hierarchy.html)
+<div>
+ <div style="margin-bottom: 1.5em; width: calc(50% - 20px);">
+   <a href="http://systemsynthesis.app">System Synthesis</a>
+   <p>Learn the soft skill of writing good docs</p>
+ </div>
+ <div style="margin-bottom: 1.5em; width: calc(50% - 20px);">
+   <a href="/2023/12/29/On-the-GPU-Memory-Hierarchy.html">On the GPU Memory Hierarchy</a>
+   <p>A guide to the interesting parts</p>
+ </div>
+ <div style="margin-bottom: 1.5em; width: calc(50% - 20px);">
+   <a href="/2024/01/09/The-wild-west-of-crypto.html">In the Wild West of Crypto Scams</a>
+   <p>On front-running the scammers</p>
+ </div>
+</div>
+
+<!-- - [System Synthesis](http://systemsynthesis.app) - _Learn the soft skill of writing good docs_
+- [On the GPU Memory Hierarchy](/2023/12/29/On-the-GPU-Memory-Hierarchy.html) - Line 2
+- [In the Wild West of Crypto Scams](/2024/01/09/The-wild-west-of-crypto.html) - Line 2 -->
 
 [See more on my Github...](https://github.com/gytdau)
 
