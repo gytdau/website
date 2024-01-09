@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Babble mode in voice dictation"
+title: "Babble Mode in Voice Dictation"
+tags: "favourite"
 ---
+
 Voice input has dramatically increased my writing output as well as the quality of my ideas. But I think that it's not as easy as turning on voice dictation and writing an essay from start to finish. There is a particular way or method of doing voice input that I have found to be far more effective, which is what I will describe in this post.
 
 ## The pitfalls of dictation
@@ -22,7 +24,7 @@ The primary thing to know about speaking is that we can speak very fast, and in 
 
 Speaking allows words to be put down cheaply, almost at the speed of thought. In that way, voice dictation allows written text to become even closer to pure "thought-stuff", something to be created, manipulated, and discarded at will. You can speak an entire paragraph that can then be deleted with no sense of loss. This is fundamentally less true for typed text, where each sentence is more substantially a time investment.
 
-Babble is a way to use voice input which takes this crucial difference into account. When I babble, I open a text document, start voice dictation, and then I get up from my chair and start speaking at length, for a minute or two. You'll be surprised with what you can say in two minutes, and how long the time period can seem in the moment. The longer you can speak without running out of ideas, the better. 
+Babble is a way to use voice input which takes this crucial difference into account. When I babble, I open a text document, start voice dictation, and then I get up from my chair and start speaking at length, for a minute or two. You'll be surprised with what you can say in two minutes, and how long the time period can seem in the moment. The longer you can speak without running out of ideas, the better.
 
 Note that there is no penalty for bad ideas, since anything can be deleted. In this way, babble is fundamentally a mode of exploration. The aim of babbling is to generate material to be edited later on. Speaking without planning means you will inevitably make mistakes, but ignore the mistakes when you do make them: you can just say it again instead of leaving babble mode to start editing.
 

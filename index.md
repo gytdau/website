@@ -28,20 +28,13 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 
 ## Writing
 
-{% assign filtered_posts = "" | split: "" %}
-{% for post in site.posts %}
-{% unless post.tags contains 'technical' %}
-{% assign filtered_posts = filtered_posts | push: post %}
-{% endunless %}
-{% endfor %}
-{% assign final_posts = filtered_posts | slice: 0, 3 %}
-
 <ul>
-{% for post in final_posts %}
- <li>
-   <a href="{{ post.url }}">{{ post.title }}</a>
- </li>
+{% for post in site.posts %}
+{% if post.tags contains 'favourite' %}
+<li>
+ <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endif %}
 {% endfor %}
 </ul>
-
 <a href="/posts">See all posts...</a>
