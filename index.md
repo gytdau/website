@@ -16,13 +16,19 @@ Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastr
 
 ## Writing
 
+{% assign filtered_posts = "" | split: "" %}
+{% for post in site.posts %}
+{% unless post.tags contains 'technical' %}
+{% assign filtered_posts = filtered_posts | push: post %}
+{% endunless %}
+{% endfor %}
+{% assign final_posts = filtered_posts | slice: 0, 3 %}
+
 <ul>
-{% for post in site.posts limit:3 %}
- {% unless post.tags contains 'technical' %}
-   <li>
-     <a href="{{ post.url }}">{{ post.title }}</a>
-   </li>
- {% endunless %}
+{% for post in final_posts %}
+ <li>
+   <a href="{{ post.url }}">{{ post.title }}</a>
+ </li>
 {% endfor %}
 </ul>
 
