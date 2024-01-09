@@ -96,8 +96,6 @@ This intricate memory hierarchy serves an important purpose in making GPU progra
 
 _Thanks to Sophia Wisdom and Tom McCarthy for reviewing a draft of this post._
 
-## Notes
-
 [^1]: You can also see this in another way: your achieved performance is the minimum of (a) the peak FLOPs used, or (b) the peak bandwidth used multiplied by the algorithm's operational intensity. Either way, there will usually only be one bottleneck at a time.
 [^2]: It may seem strange that we combine the operations per data load into a new unit (the operational intensity) this way. We do this because they are related to each other. If you take an algorithm and make it do twice as much work, it would have the same theoretical bound as if you made it load half as much data.
 [^3]: This is quite tame! It can get even worse if fetching small amounts of data non-contiguously, so it's worth putting a lot of thought into data representation.
