@@ -8,7 +8,7 @@ For a wild period in cryptocurrency history, it was possible to find free money 
 
 In normal times, it goes like this. I convince you to buy a lot of something that has a small market cap, by telling you how this is a great idea and the product is a breakthrough. Then, my cronies and I will dump all of our holdings at the new, inflated price, and leave you - or someone like you - with worthless shares. You will then never hear from me again.
 
-A crypto pump and dump, though, was different. Groups with ridiculous names like “Diamond Hand Pumps” popped up, and people were so moved by this that they voluntarily joined. They were told upfront the date and time of the next event where everyone gets a “buy signal”, jacks up the price, and sells a few minutes later. But this time you had the allure of selling it on to other suckers, of trying your luck and standing a chance of getting very rich.
+A crypto pump and dump was different. Groups with ridiculous names like “Diamond Hand Pumps” popped up, and people were so moved by this that they voluntarily joined. They were told upfront the date and time of the next event where everyone gets a “buy signal”, jacks up the price, and sells a few minutes later. But this time you had the allure of selling it on to other suckers, of trying your luck and standing a chance of getting very rich.
 
 ![Discord messages of a typical pump and dump event](/assets/crypto/discord.png "image_tooltip"){:class="img-responsive"}
 
@@ -32,7 +32,7 @@ A focused human presses keys surprisingly fast (~300ms) in comparison to OCR ser
 
 What else can we do to constrain the problem? We know that, since groups pick one exchange to trade on, the symbol had to be one of the ~300 that the exchange traded.
 
-If we were willing to get our hands dirty, we can train an object detection model instead, for which there are much faster architectures. Because we're training it from scratch, we need many more examples than the few dozen that the servers preserve in their history. So it was time to create a synthetic dataset - and a big one.
+If we were willing to get our hands dirty, we can train an object detection model instead, for which there are much faster architectures. Because we'd train it from scratch, we need many more examples than the few dozen that the servers preserve in their history. So it was time to create a synthetic dataset - and a big one.
 
 ![Generated set of images of buy signals](/assets/crypto/generated.png "image_tooltip"){:class="img-responsive"}
 
@@ -40,7 +40,7 @@ Getting a model to understand a narrow subset of the Latin alphabet, without it 
 
 It’s exciting when money is on the line, and minor differences in optimisation matter. After weeks of generating, training, and tweaking, the model came in at 200ms to detect the symbol from the image, a large improvement over humans.
 
-This was verifiably faster than the bulk of the historical trades in the order book.Here’s how the model performance now looked on a zoomed-in view of the chart:
+This was verifiably faster than the bulk of the historical trades in the order book. Here’s how the model performance now looked on a zoomed-in view of the chart:
 
 ![Chart displaying a 200ms delay from the release of signal](/assets/crypto/chart2.png "image_tooltip"){:class="img-responsive"}
 
