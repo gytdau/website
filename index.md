@@ -3,9 +3,16 @@ layout: page
 title: "Gytis Daujotas"
 ---
 
-Hi! I live in San Francisco. I'm currently working at AtoB, a financial infrastructure startup for logistics. I previously interned at AWS and Stripe.
+Hi! I'm Gytis.
 
-[Bookshelf](/books) / [Contact](mailto:gytdau@gmail.com)
+- I won an EV grant from Tyler Cowen in 2021.
+- In 2023, in pursuit of better weather, economic growth, and refining my skill in software craftsmanship, I moved from Dublin to San Francisco on an O1A visa.
+- I'm currently building financial infrastructure for logistics at AtoB, and I also previously interned at AWS and Stripe.
+- I spend a lot of my time reading, writing, and creating a large variety of software projects.
+
+[List of books on my bookshelf](/books)
+
+[Contact me here](mailto:gytdau@gmail.com)
 
 ## Technical
 
