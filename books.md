@@ -24,7 +24,7 @@ title: Books
 
   </head>
 
-I am against the slavish scholarly pursuit that reading is often associated with. But I am all for books as a limitless tap into some of the best thinking our species has produced.
+I don't think slavish scholarly pursuit is useful. That said, I think of books more as a limitless tap into some of the best thinking our species has produced.
 
 Generally, I've read less than half of these books. Books are dense and cheap, and my temperament to be slightly impatient with written content makes me a fan of the [massive input style of learning.](https://nintil.com/massive-input-spaced-repetition)
 
