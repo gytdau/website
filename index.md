@@ -10,9 +10,12 @@ Hi! I'm Gytis.
 - I'm currently building financial infrastructure for logistics at AtoB, and I also previously interned at AWS and Stripe.
 - I spend a lot of my time reading, writing, and creating a large variety of software projects.
 
-[List of books on my bookshelf](/books)
+### Lists
 
-[Contact me here](mailto:gytdau@gmail.com)
+- [List of books on my bookshelf](/books)
+  {% for list in site.lists %}
+- [{{ list.title }}]({{ list.url }})
+  {% endfor %}
 
 ## Technical
 
@@ -45,3 +48,7 @@ Hi! I'm Gytis.
 {% endfor %}
 </ul>
 <a href="/posts">See all posts...</a>
+
+---
+
+[Contact me here](mailto:gytdau@gmail.com)
