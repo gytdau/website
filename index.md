@@ -13,8 +13,8 @@ Hi! I'm Gytis.
 ### Lists
 
 - [Books](/lists/books.html)
-- [Long term relationships](/lists/long_term_relationships.html)
-- [Social technologies](/lists/social_technologies.html)
+- [Long term relationships](/lists/Long_term_relationships.html)
+- [Social technologies](/lists/Social_technologies.html)
 
 ## Technical
 
