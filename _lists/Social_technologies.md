@@ -3,6 +3,8 @@ layout: list
 title: "Social technologies"
 ---
 
+Social media purportedly ‘exposes the worst in people’. But focusing on human nature hides the more interesting fact: that platforms largely choose the behaviour they manufacture. And they’ve been making a lot of progress on manufacturing more specific behaviours over the last 5-10 years.
+
 Social platforms are fertile ground for tweaking mass behavior, and their positive achievements are often under-appreciated. Because of how much of modern experience is mediated through platforms, this is worth some discussion.
 
 Here are some prominent examples:
@@ -13,9 +15,4 @@ Here are some prominent examples:
 - Faced with lynchings in India, WhatsApp [throttled the message mass-forwarding feature](https://www.theguardian.com/technology/2019/jan/21/whatsapp-limits-message-forwarding-fight-fake-news) that was used to spread rumors among communities (2019)
 - [Gas](<https://en.wikipedia.org/wiki/Gas_(app)>) was an app where teenagers "gassed" each other up by voting on a set of polls that complemented each other, and became briefly very popular before being acquired. (2022)
 
-Seemingly less successful, on account of hearing people being nudged by it less:
-
-- Twitter's ["pause before you post"](https://blog.twitter.com/common-thread/en/topics/stories/2022/how-twitter-is-nudging-users-healthier-conversations#:~:text=%E2%80%9COne%20of%20the%20primary%20motivations,with%20someone%2C%E2%80%9D%20said%20Lee.) prompt, which asks users to reconsider their tweet if it contains harmful language.
-- Youtube [information panels](https://support.google.com/youtube/answer/9004474?hl=en) add warning snippets about political affiliation or vaccine safety
-
-What other experiments are waiting to be tried? Can some future experiment reveal some new, wonderful facet of human behavior, or are we mainly patching up the downsides of large groups of people?
+What other experiments are waiting to be tried? Can some future experiment reveal some new, wonderful facet of human behavior, or are we mainly patching up the downsides of large groups of people? For instance, what would the impact of great language understanding be on the problem of moderation and ranking?
