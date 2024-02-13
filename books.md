@@ -26,9 +26,7 @@ title: Books
 
 I am against the slavish scholarly pursuit that reading is often associated with. But I am all for books as a limitless tap into some of the best thinking our species has produced.
 
-With that in mind, tread lightly. I have only begun to read half of these, and of those, I have only grokked a fraction.
-
-Books are dense and cheap, and my temperament to be slightly impatient with written content makes me a fan of the [massive input style of learning.](https://nintil.com/massive-input-spaced-repetition)
+Generally, I've read less than half of these books. Books are dense and cheap, and my temperament to be slightly impatient with written content makes me a fan of the [massive input style of learning.](https://nintil.com/massive-input-spaced-repetition)
 
 <p class="exceptional">Books marked with ● were especially great</p>
 <table>
