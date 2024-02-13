@@ -12,10 +12,9 @@ Hi! I'm Gytis.
 
 ### Lists
 
-- [Books](/books)
-  {% for list in site.lists %}
-- [{{ list.title }}]({{ list.url }})
-  {% endfor %}
+- [Books](/lists/books.html)
+- [Long term relationships](/lists/long_term_relationships.html)
+- [Social technologies](/lists/social_technologies.html)
 
 ## Technical
 
