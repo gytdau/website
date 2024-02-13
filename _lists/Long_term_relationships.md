@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: list
 title: "Long term relationships"
 ---
 
