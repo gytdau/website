@@ -12,7 +12,7 @@ Hi! I'm Gytis.
 
 ### Lists
 
-- [List of books on my bookshelf](/books)
+- [Books](/books)
   {% for list in site.lists %}
 - [{{ list.title }}]({{ list.url }})
   {% endfor %}
