@@ -18,6 +18,11 @@ blockquote > p:last-child {
   display: inline-block;
 }
 
+ul > li {
+  /* use bullets */
+  list-style-type: disc;
+}
+
 a {
   text-decoration: underline;
 }
