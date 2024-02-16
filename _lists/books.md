@@ -30,42 +30,87 @@ Generally, I've read less than half of these books. Books are dense and cheap, a
 
 _I **bolded** books that I thought were especially great._
 
-- The Socratic Method: A Practitioner's Handbook
-- The First American: The Life and Times of Benjamin Franklin
-- The Way to Wealth
-- Poor Richard's Almanack
-- Moby-Dick
-- The Printing Revolution in Early Modern Europe
-- The Card Catalog: Books, Cards, and Literary Treasures
-- Disturbing The Universe
-- Robert Oppenheimer: A Life Inside the Center
-- The Road to Reality: A Complete Guide to the Laws of the Universe
-- The Monocle Guide to Cosy Homes
-- The Monocle Travel Guide to San Francisco
-- The Monocle Guide to Better Living
-- Interaction of Color: 50th Anniversary Edition
-- The Paris Review Interviews, II: Wisdom from the World's Literary Masters
-- The Paris Review Interviews, I: 16 Celebrated Interviews
-- The Glass Bead Game
-- Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman
-- Art & Fear: Observations On the Perils (and Rewards) of Artmaking
-- The Printing Revolution in Early Modern Europe
-- Proofs: A Long-Form Mathematics Textbook
-- Zen Flesh, Zen Bones: A Collection of Zen and Pre-Zen Writings
-- How to Solve It: A New Aspect of Mathematical Method
-- Poor Charlie’s Almanack: The Essential Wit and Wisdom of Charles T. Munger
-- Eminent Economists: Their Life Philosophies
-- Software Architecture: The Hard Parts
-- Sex at Dusk: Lifting the Shiny Wrapping from Sex at Dawn
-- The Man from the Future
-- Collected Works of Bernard Lonergan
 - The Message
-- Conversations of Goethe
+- **Conversations of Goethe**
 - Poetry of Impermanence, Mindfulness, and Joy
 - The City in History
 - The Bhagavad Gita Comes Alive: A Radical Translation
 - On Writing
 - The Cairo Trilogy
+
+---
+
+- _Some great classic books about programming I read:_
+  - Code Complete
+  - The Mythical Man-Month
+  - The Pragmatic Programmer: From Journeyman to Master
+
+---
+
+- The Socratic Method: A Practitioner's Handbook
+- The First American: The Life and Times of Benjamin Franklin
+- The Way to Wealth
+- Poor Richard's Almanack
+
+---
+
+- _Generally enjoyed but did not finish these books on mathematics and problems:_
+  - How to Solve It: A New Aspect of Mathematical Method
+  - Probability Theory the Logic of Science
+  - Proofs: A Long-Form Mathematics Textbook
+  - How to Solve It: A New Aspect of Mathematical Method
+
+---
+
+- Moby-Dick
+- The Printing Revolution in Early Modern Europe
+- Disturbing The Universe
+- Robert Oppenheimer: A Life Inside the Center
+- The Road to Reality: A Complete Guide to the Laws of the Universe
+
+---
+
+
+- _Good picture books about interior design and color:_
+  - The Monocle Guide to Cosy Homes
+  - The Monocle Travel Guide to San Francisco
+  - The Monocle Guide to Better Living
+  - Interaction of Color: 50th Anniversary Edition
+
+
+---
+
+- The Glass Bead Game
+- Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman
+- Art & Fear: Observations On the Perils (and Rewards) of Artmaking
+
+---
+
+- _History of technological progress:_
+	- The Printing Revolution in Early Modern Europe
+	- Technics and Civilization
+
+---
+
+- Zen Flesh, Zen Bones: A Collection of Zen and Pre-Zen Writings
+- Poor Charlie’s Almanack: The Essential Wit and Wisdom of Charles T. Munger
+
+---
+
+- _Some books on how to write well:_
+  - On Writing
+  - **Several Short Sentences About Writing**
+  - The Paris Review Interviews, II: Wisdom from the World's Literary Masters
+  - The Paris Review Interviews, I: 16 Celebrated Interviews
+
+
+---
+
+- **Eminent Economists: Their Life Philosophies**
+- Software Architecture: The Hard Parts
+- Sex at Dusk: Lifting the Shiny Wrapping from Sex at Dawn
+- The Man from the Future
+- Collected Works of Bernard Lonergan
 - The Simple Path to Wealth
 - The Shallows
 - The Gospels
@@ -95,9 +140,7 @@ _I **bolded** books that I thought were especially great._
 - The Republic of Plato
 - Reasons and Persons
 - The Fabric of Reality
-- The Life of Samuel Johnson
 - A Moveable Feast
-- The Best of edw519
 - **Advice for a Young Investigator**
 - The Myth of the Machine
 - The Journalist and the Murderer
@@ -109,7 +152,6 @@ _I **bolded** books that I thought were especially great._
 - Zhuangzi: The Complete Writings
 - The Book of Chuang Tzu
 - Thus Spoke Zarathustra
-- Kafka on the Shore
 - The Rise and Decline of Nations: Economic Growth, Stagflation, and
   Social Rigidities
 - The Unbearable Lightness of Being
@@ -136,11 +178,8 @@ _I **bolded** books that I thought were especially great._
 - What Got You Here Won't Get You There: How Successful People
   Become Even More Successful
 - The Wisdom of No Escape
-- **Several Short Sentences About Writing**
 - Masters of Doom
 - Code Complete
-- A Heartbreaking Work of Staggering Genius: A Memoir Based on a
-  True Story
 - Rick Steves Europe Through the Back Door 2018
 - But What If We're Wrong?
 - A Sense of Where You Are: Bill Bradley at Princeton
@@ -153,11 +192,9 @@ _I **bolded** books that I thought were especially great._
 - **Whole Earth Catalog**
 - Quantum Computing Since Democritus
 - Tender Is the Night
-- Technics and Civilization
 - Age of Ambition
 - On Love and Barley: Haiku of Basho
 - **Tulsa**
-- The Pragmatic Programmer: From Journeyman to Master
 - **Tao Te Ching**
 - The Nude, a Study in Ideal Form
 - American Frugal Housewife
@@ -188,12 +225,11 @@ _I **bolded** books that I thought were especially great._
 - Don Quixote
 - How to Fight a Hydra: Face Your Fears, Pursue Your Ambitions, and
   Become the Hero You Are Destined to Be
-- World Beyond Your Head : On Becoming an Individual in an Age of
-  Distraction (9780374708443)
+- World Beyond Your Head: On Becoming an Individual in an Age of
+  Distraction
 - Get Together: How to build a community with your people
 - Staff Engineer: Leadership beyond the management track
 - **Hyperion**
-- Heartstopper
 - Statistical Consequences of Fat Tails
 - Private Truths, Public Lies. The Social Consequences of Preference
   Falsification (1997, Harvard University Press)
@@ -369,7 +405,6 @@ _I **bolded** books that I thought were especially great._
 - Thank You for Arguing (Revised and Updated)
 - The Elements of Eloquence: How to Turn the Perfect English Phrase
 - The Art of Doing Science and Engineering: Learning to Learn
-- 1998 Collected Fictions
 - Labyrinths
 - When Things Fall Apart
 - Introduction to Algorithms, Third Edition
@@ -381,7 +416,6 @@ _I **bolded** books that I thought were especially great._
 - Practical Programming for Strength Training
 - The Longing for Less
 - The Most Important Thing
-- Details Mens Style Manual
 - Influence: The Psychology of Persuasion
 - "Surely You're Joking, Mr. Feynman!": Adventures of a Curious
   Character
@@ -399,8 +433,7 @@ _I **bolded** books that I thought were especially great._
 - Poor Charlie's Almanack
 - A Win Without Pitching Manifesto
 - The Prophet
-- Too Soon Old, Too Late Smart: Thirty True Things You Need to Know
-  Now
+- **Too Soon Old, Too Late Smart: Thirty True Things You Need to Know Now**
 - Curious: The Desire to Know and Why Your Future Depends On It
 - To Be Taught, If Fortunate
 - The Great Mental Models: General Thinking Concepts
