@@ -28,8 +28,7 @@ I don't think slavish scholarly pursuit is useful. That said, I think of books m
 
 Generally, I've read less than half of these books. Books are dense and cheap, and my temperament to be slightly impatient with written content makes me a fan of the [massive input style of learning.](https://nintil.com/massive-input-spaced-repetition)
 
-<p class="exceptional">Books marked with ● were especially great</p>
-
+_I **bolded** books that I thought were especially great._
 
 - Software Architecture: The Hard Parts
 - Sex at Dusk: Lifting the Shiny Wrapping from Sex at Dawn
