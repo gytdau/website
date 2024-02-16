@@ -30,6 +30,31 @@ Generally, I've read less than half of these books. Books are dense and cheap, a
 
 _I **bolded** books that I thought were especially great._
 
+- The Socratic Method: A Practitioner's Handbook
+- The First American: The Life and Times of Benjamin Franklin
+- The Way to Wealth
+- Poor Richard's Almanack
+- Moby-Dick
+- The Printing Revolution in Early Modern Europe
+- The Card Catalog: Books, Cards, and Literary Treasures
+- Disturbing The Universe
+- Robert Oppenheimer: A Life Inside the Center
+- The Road to Reality: A Complete Guide to the Laws of the Universe
+- The Monocle Guide to Cosy Homes
+- The Monocle Travel Guide to San Francisco
+- The Monocle Guide to Better Living
+- Interaction of Color: 50th Anniversary Edition
+- The Paris Review Interviews, II: Wisdom from the World's Literary Masters
+- The Paris Review Interviews, I: 16 Celebrated Interviews
+- The Glass Bead Game
+- Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman
+- Art & Fear: Observations On the Perils (and Rewards) of Artmaking
+- The Printing Revolution in Early Modern Europe
+- Proofs: A Long-Form Mathematics Textbook
+- Zen Flesh, Zen Bones: A Collection of Zen and Pre-Zen Writings
+- How to Solve It: A New Aspect of Mathematical Method
+- Poor Charlie’s Almanack: The Essential Wit and Wisdom of Charles T. Munger
+- Eminent Economists: Their Life Philosophies
 - Software Architecture: The Hard Parts
 - Sex at Dusk: Lifting the Shiny Wrapping from Sex at Dawn
 - The Man from the Future
@@ -140,7 +165,6 @@ _I **bolded** books that I thought were especially great._
 - Working in Public
 - The Great Depression: A Diary
 - Circe
-- The Bhagavad Gita
 - **Bhagavad Gita**
 - Something Incredibly Wonderful Happens: An Intimate Biography of
   Frank Oppenheimer
@@ -283,7 +307,6 @@ _I **bolded** books that I thought were especially great._
 - A Pattern Language
 - alphabet (New Directions)
 - The Power Broker: Robert Moses and the fall of New York
-- The Autobiography of Benjamin Franklin
 - The Drama of the Gifted Child
 - Managing Oneself
 - Becoming a Technical Leader: An Organic Problem-Solving Approach
@@ -324,7 +347,6 @@ _I **bolded** books that I thought were especially great._
 - How to Say It, Third Edition: Choice Words, Phrases, Sentences,
   and Paragraphs for Every Situation
 - Mind Gym: An Athlete's Guide to Inner Excellence
-- Tao Te Ching Red Pine
 - Make It Stick
 - Mastery
 - Turning the Mind Into an Ally
