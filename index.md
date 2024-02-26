@@ -5,10 +5,9 @@ title: "Gytis Daujotas"
 
 Hi! I'm Gytis.
 
-- I won an EV grant from Tyler Cowen in 2021.
+- I received an [Emergent Ventures](https://newscience.org/emergent-ventures-winners/) grant to, among other things, make books first class citizens of the web. I'm no longer convinced this is so important, but I still love to read -- check out my [book list.](/lists/books.html)
 - In 2023, in pursuit of better weather, economic growth, and refining my skill in software craftsmanship, I moved from Dublin to San Francisco on an O1A visa.
 - I'm currently building financial infrastructure for logistics at AtoB, and I also previously interned at AWS and Stripe.
-- I spend a lot of my time reading, writing, and creating a large variety of software projects.
 
 ### Lists
 
