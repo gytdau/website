@@ -5,20 +5,8 @@ title: Books
 
   <head>
     <style>
-      table,
-      tr,
-      td {
-        border: 0;
-        background-color: transparent !important;
-      }
-
-      td:first-of-type,
-      .exceptional {
-        color: #0074d9;
-      }
-
-      td:nth-of-type(2) {
-        font-style: italic;
+      hr {
+        margin: 1em;
       }
     </style>
 
@@ -70,13 +58,11 @@ _I **bolded** books that I thought were especially great._
 
 ---
 
-
 - _Good picture books about interior design and color:_
   - The Monocle Guide to Cosy Homes
   - The Monocle Travel Guide to San Francisco
   - The Monocle Guide to Better Living
   - Interaction of Color: 50th Anniversary Edition
-
 
 ---
 
@@ -87,8 +73,8 @@ _I **bolded** books that I thought were especially great._
 ---
 
 - _History of technological progress:_
-	- The Printing Revolution in Early Modern Europe
-	- Technics and Civilization
+  - The Printing Revolution in Early Modern Europe
+  - Technics and Civilization
 
 ---
 
@@ -102,7 +88,6 @@ _I **bolded** books that I thought were especially great._
   - **Several Short Sentences About Writing**
   - The Paris Review Interviews, II: Wisdom from the World's Literary Masters
   - The Paris Review Interviews, I: 16 Celebrated Interviews
-
 
 ---
 
@@ -209,8 +194,6 @@ _I **bolded** books that I thought were especially great._
 - Structures: Or Why Things Don't Fall Down
 - The Case against Education
 - The Principia: Mathematical Principles of Natural Philosophy
-- Mythology: Timeless Tales of Gods and Heroes, 75th Anniversary
-  Illustrated Edition
 - **The Uncensored Picture of Dorian Gray**
 - Inward
 - Greek Lives
@@ -269,12 +252,7 @@ _I **bolded** books that I thought were especially great._
 - **The Song of Achilles**
 - The Meaning of It All: Thoughts of a Citizen-Scientist
 - Zero to One: Notes on Startups, or How to Build the Future
-- The Carnivore Cookbook 1 1
-- The Carnivore Diet
 - Thinking in Bets
-- Steal Like an Artist: 10 Things Nobody Told You About Being
-  Creative
-- The Princeton Companion to Mathematics
 - The Prince
 - Microeconomics: A Very Short Introduction
 - Economics in One Lesson
@@ -286,7 +264,6 @@ _I **bolded** books that I thought were especially great._
   Efficiency
 - Don't Think of an Elephant!: Know Your Values and Frame the Debate
 - Only the Paranoid Survive
-- The first six books of the Elements of Euclid
 - Osho, Books I have Loved
 - Intermediate Microeconomics
 - Edison
@@ -339,7 +316,7 @@ _I **bolded** books that I thought were especially great._
 - Hell Yeah or No
 - The Origin of Consciousness in the Breakdown of the Bicameral Mind
 - **Metaphors We Live By**
-- Notes on the Synthesis of Form (Harvard Paperbacks)
+- Notes on the Synthesis of Form
 - A Pattern Language
 - alphabet (New Directions)
 - The Power Broker: Robert Moses and the fall of New York
@@ -363,8 +340,7 @@ _I **bolded** books that I thought were especially great._
 - The Sovereign Individual: Mastering the Transition to the
   Information Age
 - The Lessons of History
-- Algorithms to Live By: The Computer Science of Human Decisions
-- Presence: Bringing Your Boldest Self to Your Biggest Challenges
+- Algorithms to Live By
 - The Art of Risk: The New Science of Courage, Caution, and Chance
 - Tempo: timing, tactics and strategy in narrative-driven
   decision-making
@@ -410,7 +386,6 @@ _I **bolded** books that I thought were especially great._
 - Introduction to Algorithms, Third Edition
 - Against the Gods: The Remarkable Story of Risk
 - A Beautiful Question
-- The New Primal Blueprint
 - The Art of Worldly Wisdom
 - Spiritual Enlightenment - The Damnedest Thing
 - Practical Programming for Strength Training
@@ -423,7 +398,6 @@ _I **bolded** books that I thought were especially great._
 - Essentialism
 - Stubborn Attachments: A Vision for a Society of Free, Prosperous,
   and Responsible Individuals
-- The Story Grid: What Good Editors Know
 - Falling into Grace Insights on the End of Suffering
 - **Epictetus: Discourses, Fragments, Handbook**
 - Skin in the Game: Hidden Asymmetries in Daily Life
@@ -461,7 +435,7 @@ _I **bolded** books that I thought were especially great._
 - This Life
 - The Art of Statistics: Learning From Data
 - The Most Important Thing Illuminated: Uncommon Sense for the
-  Thoughtful Investor (Columbia Business School Publishing)
+  Thoughtful Investor
 - A Piece of Cake
 - Why Can't We Sleep?: Understanding Our Sleeping and Sleepless
   Minds
@@ -477,9 +451,17 @@ _I **bolded** books that I thought were especially great._
 - Difficult Conversations
 - So Good They Can't Ignore You: Why Skills Trump Passion in the
   Quest for Work You Love
-- Tomorrow Factory
-- The Paper Menagerie and Other Stories
-- **Stories of Your Life and Others**
+
+---
+
+- _Lovely science fiction:_
+  - Tomorrow Factory
+  - The Paper Menagerie and Other Stories
+  - **Stories of Your Life and Others**
+
+---
+
+- Man's Search for Meaning
 - Enchiridion (Dover Thrift Editions)
 - A Guide to the Good Life: The Ancient Art of Stoic Joy
 - Seven Brief Lessons on Physics
@@ -489,20 +471,18 @@ _I **bolded** books that I thought were especially great._
 - When Breath Becomes Air
 - The Fall
 - **The Three-Body Problem**
-- Man's Search for Meaning
 - Consciousness as a Scientific Concept: A Philosophy of Science
   Perspective
 - Exit West
 - Anything Is Possible
-- Lincoln in the Bardo
-- Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking
+- **Lincoln in the Bardo**
+- **Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking**
 - 5/3/1
 - Aristotle and Dante Discover the Secrets of the Universe
 - Lying
 - Fooled by Randomness
 - Blood, Sweat, and Pixels
 - The Obstacle Is the Way
-- Grit: The Power of Passion and Perseverance: Angela Duckworth
 - Dandelion Wine
 - The 48 Laws of Power
 - Tribe
