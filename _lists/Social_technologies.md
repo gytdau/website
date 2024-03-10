@@ -3,9 +3,9 @@ layout: list
 title: "Social technologies"
 ---
 
-Social media purportedly ‘exposes the worst in people’. But focusing on human nature hides the more interesting fact: that platforms largely choose the behaviour they manufacture. And they’ve been making a lot of progress on manufacturing more specific behaviours over the last 5-10 years.
+The evolution of social platforms gives us a glimpse at what [we didn't yet know about ourselves](https://kk.org/thetechnium/things-we-didnt-know-about-ourselves/). There's been a lot of progress changing and tweaking specific behaviors over the last 5-10 years.
 
-Social platforms are fertile ground for tweaking mass behavior, and their positive achievements are often under-appreciated. Because of how much of modern experience is mediated through platforms, this is worth some discussion.
+Social platforms are fertile ground for this, and their positive achievements are often under-appreciated. Because of how much of modern experience is mediated through platforms, this is worth some discussion.
 
 Here are some prominent examples:
 

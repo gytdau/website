@@ -17,19 +17,20 @@ Hi! I'm Gytis.
 
 ## Technical
 
-<div>
- <div style="margin-bottom: 1.5em;">
-   <a href="http://systemsynthesis.app">System Synthesis</a>
-   <p>Learn the soft skill of writing good docs</p>
+<div class="flex-row">
+{% for item in site.data.projects %}
+ <div class="flex-item">
+    <a href="{{ item.link }}" class="no-decoration">
+      <img src="{{ item.image }}" alt="Placeholder" class="image-placeholder">
+    </a>
+    <div class="description">
+      <a href="{{ item.link }}">
+        {{item.title}}
+      </a>
+      <div class="no-decoration">{{ item.description }}</div>
+    </div>
  </div>
- <div style="margin-bottom: 1.5em;">
-   <a href="/2023/12/29/On-the-GPU-Memory-Hierarchy.html">On the GPU Memory Hierarchy</a>
-   <p>A guide to the interesting parts</p>
- </div>
- <div style="margin-bottom: 1.5em;">
-   <a href="/2024/01/09/The-wild-west-of-crypto.html">In the Wild West of Crypto Scams</a>
-   <p>On front-running the scammers</p>
- </div>
+{% endfor %}
 </div>
 
 [See more on my Github...](https://github.com/gytdau)
