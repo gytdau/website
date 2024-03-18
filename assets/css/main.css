@@ -92,6 +92,16 @@ a {
   cursor: pointer;
  }
 
+ @media (max-width: 768px) {
+  .flex-item {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .flex-row {
+    gap: 1.5em;
+  }
+ }
+
  .no-decoration {
   color: hsl(205, 20%, 32%);
   text-decoration: none;
