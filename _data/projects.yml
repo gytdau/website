@@ -1,7 +1,7 @@
 - title: "System Synthesis"
   description: "An experiment in teaching the soft skill of writing good docs"
   image: "/assets/previews/1.png"
-  link: "http://systemsynthesis.app"
+  link: "/system-synthesis"
 - title: "On the GPU Memory Hierarchy"
   description: "A guide to roofline charts, memory loads, and the tradeoffs of GPU memory"
   image: "/assets/previews/2.png"
