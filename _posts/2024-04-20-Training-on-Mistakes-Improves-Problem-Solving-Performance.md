@@ -12,7 +12,7 @@ tags: technical
 </p>
 <p class="c12">
   <span>To investigate this problem, I trained a toy maze-solving model that was allowed to backtrack on itself. I found that the </span>
-  <span class="c6">maze solving performance improved</span>
+  <strong>maze solving performance improved</strong>
   <span class="c1">&nbsp;when errors and their corrections were injected into the paths of otherwise perfect solutions. I show that the probability of moving in the correct direction improves at decision points when mistakes are allowed.</span>
 </p>
 <p class="c0">
@@ -386,7 +386,7 @@ tags: technical
 </p>
 <p class="c12">
   <span>This indicates that </span>
-  <span class="c6">the fallible model has a consistent performance advantage</span>
+  <strong>the fallible model has a consistent performance advantage</strong>
   <span class="c1">, even though you could imagine many reasons this should not be true (the generated paths are longer and more confusing, the training data moves are occasionally going the wrong way and so the objective signal is more noisy, etc).</span>
 </p>
 <h1 class="c26" id="h.mgxf0xp9o3ug">
@@ -400,7 +400,7 @@ tags: technical
 </p>
 <p class="c12">
   <span>What I thought was very neat was how mistakes were not actually linearly represented in the residual stream. I trained a linear probe that couldn&#39;t pick it up, but a nonlinear probe with a simple ReLU could pick it up easily. This indicates that </span>
-  <span class="c6">while this information is in the residual stream somewhere, it&#39;s not in a linear representation</span>
+  <strong>while this information is in the residual stream somewhere, it&#39;s not in a linear representation</strong>
   <span class="c1">. </span>
 </p>
 <p class="c0">
@@ -462,14 +462,14 @@ tags: technical
 <ul class="c23 lst-kix_u30o58cthhmd-0 start">
   <li class="c8 li-bullet-0">
     <span>I still find it pretty interesting that using an extra token, in this case a wrong move, actually improves the overall performance. </span>
-    <span class="c6">Can more specific testing be performed to figure out what goes in the extra token to observe the &ldquo;doubt&rdquo;? </span>
+    <strong>Can more specific testing be performed to figure out what goes in the extra token to observe the &ldquo;doubt&rdquo;? </strong>
   </li>
   <li class="c8 li-bullet-0">
-    <span class="c6">Can this be generalized to non-turn-based problem solving?</span>
+    <strong>Can this be generalized to non-turn-based problem solving?</strong>
     <span class="c1">&nbsp;This probably requires more understanding of how models think and how to wield the tools of mechanistic interpretability more effectively.</span>
   </li>
   <li class="c8 li-bullet-0">
-    <span class="c6">Can mathematical reasoning be improved this way?</span>
+    <strong>Can mathematical reasoning be improved this way?</strong>
     <span class="c1">&nbsp;This sort of marking of incorrect and incorrect moves is currently pretty constrained to problems solved through discrete moves. Mathematical reasoning seems like a particularly good candidate for this intervention!</span>
   </li>
 </ul>
