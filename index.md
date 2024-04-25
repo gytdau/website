@@ -39,11 +39,9 @@ Hi! I'm Gytis.
 
 <ul>
 {% for post in site.posts %}
-{% if post.tags contains 'favourite' %}
 <li>
  <a href="{{ post.url }}">{{ post.title }}</a>
 </li>
-{% endif %}
 {% endfor %}
 </ul>
 <a href="/posts">See all posts...</a>
