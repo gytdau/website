@@ -19,11 +19,11 @@ I trained a small 10 million parameter transformer model to output solutions for
 1. The oracle dataset, which unfailingly solves the maze every time in the shortest path.
 2. The fallible dataset, which, like the oracle, goes directly to the end. However, at every junction point, there is a 20% chance of making the wrong decision. Each time it makes the wrong decision, it immediately backtracks and continues on the path.
 
-![](/assets/mazegpt/image3.png)
+![](/assets/mazegpt/image3.png){:class="img-responsive"}
 
 I serialized mazes with a pretty simple scheme, without doing anything fancier (like serializing with a space filling curve, or serializing spans as [in this paper](https://arxiv.org/abs/2312.02566), which I found unnecessary):
 
-![](/assets/mazegpt/image7.png)
+![](/assets/mazegpt/image7.png){:class="img-responsive"}
 
 # Performance
 
@@ -234,11 +234,11 @@ It might not be obvious why a model trained on the fallible dataset would perfor
 
 To test this, I constructed a benchmark where both models generated solutions for 2000 mazes, which were then checked for correctness. A solution was correct if it got to the end and didn't cheat by going through any walls.
 
-![](/assets/mazegpt/image5.png)
+![](/assets/mazegpt/image5.png){:class="img-responsive"}
 
 Running this benchmark on multiple pairs of models at various different sizes reveals that the fallible model performs better than the oracle model at every size tested, despite being otherwise identical. This difference is fairly tangible, improving maze solving performance between 2% and 5%.
 
-![Maze solving ability - correctness](/assets/mazegpt/image8.png)
+![Maze solving ability - correctness](/assets/mazegpt/image8.png){:class="img-responsive"}
 
 This indicates that the fallible model has a consistent performance advantage , even though you could imagine many reasons this should not be true (the generated paths are longer and more confusing, the training data moves are occasionally going the wrong way and so the objective signal is more noisy, etc). I find this result quite surprising as the fallible model has a distinct decision-making disadvantage, since it is trained to make mistakes.
 
@@ -252,7 +252,7 @@ I would bet that there is some actual representation of what a mistake is linear
 
 The non-linear probe reveals something about how the model decides where to go. In the figure below, we take partially completed paths and move around the endpoint of the maze, plotting the value of the mistake feature as we go. As the endpoint is moved behind the path, the mistake feature is more activated, versus when it is in front of the current position:
 
-### ![](/assets/mazegpt/image10.png)
+![](/assets/mazegpt/image10.png){:class="img-responsive"}
 
 Another technique to try would have been to use a sparse autoencoder, but these [seem to have problems of their own.](https://www.lesswrong.com/posts/BduCMgmjJnCtc7jKc/)
 
