@@ -7,7 +7,7 @@ title: "Gytis Daujotas"
 
 <div class="bio gap-4 flex flex-col">
 <h2>
-Hi! I'm a technical generalist living in San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I previously interned at AWS and Stripe. I'm also an <a href="https://newscience.org/emergent-ventures-winners/">Emergent Ventures</a> grant recipient. I moved to SF from Dublin in 2023 on an O1A visa.
+Hi! I'm a technical generalist living in San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I previously interned at AWS and Stripe. I'm also an <a href="https://newscience.org/emergent-ventures-winners/">Emergent Ventures</a> grant recipient. I moved from windy Dublin, Ireland to SF in 2023 on an O1A visa.
 </h2>
 </div>
 <div class="projects">
