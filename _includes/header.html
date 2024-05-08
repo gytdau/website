@@ -1,0 +1,15 @@
+<div class="flex justify-between md:p-0 p-8 gap-4">
+  <div class="name">
+    <h1>{{page.title}}</h1>
+  </div>
+
+  <div class="links text-right">
+    <ul>
+      {% for link in site.data.links %}
+      <li>
+        <h3><a href="{{ link.url }}">{{ link.name }}</a></h3>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

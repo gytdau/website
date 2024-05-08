@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Gytis Daujotas - Projects"
+title: "Projects"
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-8 py-8">

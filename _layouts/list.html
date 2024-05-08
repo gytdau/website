@@ -2,9 +2,11 @@
 layout: default
 ---
 
-<div class="container mx-auto py-16 prose">
-  <header><h1>{{ page.title }}</h1></header>
-  <main>{{ content }}</main>
+<div class="container mx-auto py-16">
+  <main>
+    {% include header.html %}
+    <div class="prose">{{ content }}</div>
+  </main>
   <footer>
     <div style="font-size: 0.8em">
       Submit

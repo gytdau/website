@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Gytis Daujotas - Posts"
+title: "Blog"
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-8 py-8">

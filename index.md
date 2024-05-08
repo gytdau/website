@@ -3,20 +3,8 @@ layout: home
 title: "Gytis Daujotas"
 ---
 
-<div class="home-grid container mx-auto">
-<div class="name">
-<h1>Gytis Daujotas</h1>
-</div>
+<div class="home-grid">
 
-<div class="links text-right">
-<ul>
-{% for link in site.data.links %}
-<li>
- <h3><a href="{{ link.url }}">{{ link.name }}</a></h3>
-</li>
-{% endfor %}
-</ul>
-</div>
 <div class="bio gap-4 flex flex-col">
 <h2>
 Hi! I'm a technical generalist living in San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I previously interned at AWS and Stripe. I'm also an <a href="https://newscience.org/emergent-ventures-winners/">Emergent Ventures</a> grant recipient. I moved to SF from Dublin in 2023 on an O1A visa.
