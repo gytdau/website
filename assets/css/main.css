@@ -111,6 +111,7 @@ a {
  .image-placeholder {
   border-radius: 0.5em;
   width: 6em;
+  min-width: 6em;
   height: 4.5em;
   object-fit: cover;
   margin-bottom: 0.5em;

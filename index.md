@@ -3,17 +3,7 @@ layout: page
 title: "Gytis Daujotas"
 ---
 
-Hi! I'm Gytis.
-
-- I received an [Emergent Ventures](https://newscience.org/emergent-ventures-winners/) grant to, among other things, make books first class citizens of the web. I'm no longer convinced this is so important, but I still love to read -- check out my [book list.](/lists/books.html)
-- In 2023, in pursuit of better weather, economic growth, and refining my skill in software craftsmanship, I moved from Dublin to San Francisco on an O1A visa.
-- I'm currently building financial infrastructure for logistics at AtoB, and I also previously interned at AWS and Stripe.
-
-### Lists
-
-- [Books](/lists/books.html)
-- [Long term relationships](/lists/Long_term_relationships.html)
-- [Social technologies](/lists/Social_technologies.html)
+I'm a technical generalist living in San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I also previously interned at AWS and Stripe. I'm also an [Emergent Ventures](https://newscience.org/emergent-ventures-winners/) grant recipient. I moved to SF from Dublin in 2023 on an O1A visa.
 
 ## Technical
 
