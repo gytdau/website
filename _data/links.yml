@@ -4,3 +4,5 @@
   url: "/projects/"
 - name: "Blog"
   url: "/posts/"
+- name: "Book list"
+  url: "/lists/books"
