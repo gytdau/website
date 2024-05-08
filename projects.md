@@ -6,8 +6,8 @@ title: "Projects"
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-8 py-8">
 {% for project in site.data.projects %}
 <div>
-<a href="{{ project.link }}">{{ project.title }}</a>
- <p>{{ project.description }}</p>
+<a href="{{ project.link }}" class="block mb-1">{{ project.title }}</a>
+ <p>{{ project.description }} {% if project.date %}<span class="text-gray-400"> &mdash; {{ project.date | date: "%B %Y" }}</span>{% endif %}</p>
  </div>
 {% endfor %}
 </div>

@@ -13,6 +13,7 @@ Hi! I'm a technical generalist living in San Francisco. I'm currently building f
 <div class="projects">
 <div class="flex flex-col gap-4 pb-6">
 {% for item in site.data.projects %}
+{% if item.featured %}
     <div class="flex gap-2 flex-row md:flex-col">
     <div>
     <img src="{{ item.image }}" alt="{{ item.title }}" class="image-placeholder">
@@ -26,6 +27,7 @@ Hi! I'm a technical generalist living in San Francisco. I'm currently building f
       <div class="no-decoration">{{ item.description }}</div>
       </div>
     </div>
+  {% endif %}
 {% endfor %}
 </div>
 
