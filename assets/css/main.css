@@ -110,7 +110,6 @@ ul > li {
   grid-template-rows: repeat(4, auto);
   grid-column-gap: 2em;
   grid-row-gap: 3em;
-  padding: 2em;
 }
 
 .name { grid-area: 1 / 1 / 2 / 2; }
