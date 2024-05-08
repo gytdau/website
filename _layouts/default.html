@@ -8,18 +8,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The page supports both dark and light color schemes, and the page author prefers / default is light. -->
     <meta name="color-scheme" content="light" />
-    <!-- Stylesheet that includes Bootstrap dark mode & custom stylesheet -->
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css"
-    />
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <link rel="stylesheet" href="/assets/css/main.css" />
 
+    <style type="text/tailwindcss">
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
+      @layer base {
+        h1 {
+          @apply text-3xl font-semibold;
+        }
+        h2 {
+          @apply text-xl;
+        }
+        a {
+          @apply font-medium;
+        }
+        a:hover {
+          @apply underline;
+        }
+        ul > li {
+          @apply m-0;
+          @apply p-0;
+          @apply list-none;
+        }
+      }
+    </style>
     <!-- Meta Theme Color is also supported on Safari and Chrome -->
     <meta
       name="theme-color"

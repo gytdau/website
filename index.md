@@ -1,41 +1,65 @@
 ---
-layout: page
+layout: home
 title: "Gytis Daujotas"
 ---
 
-I'm a technical generalist living in San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I also previously interned at AWS and Stripe. I'm also an [Emergent Ventures](https://newscience.org/emergent-ventures-winners/) grant recipient. I moved to SF from Dublin in 2023 on an O1A visa.
-
-## Technical
-
-<div class="flex-row">
-{% for item in site.data.projects %}
- <div class="flex-item">
-    <a href="{{ item.link }}" class="no-decoration">
-      <img src="{{ item.image }}" alt="Placeholder" class="image-placeholder">
-    </a>
-    <div class="description">
-      <a href="{{ item.link }}">
-        {{item.title}}
-      </a>
-      <div class="no-decoration">{{ item.description }}</div>
-    </div>
- </div>
-{% endfor %}
+<div class="home-grid container mx-auto">
+<div class="name">
+<h1>Gytis Daujotas</h1>
 </div>
 
-[See more on my Github...](https://github.com/gytdau)
-
-## Writing
-
+<div class="links text-right">
 <ul>
-{% for post in site.posts %}
+{% for link in site.data.links %}
 <li>
- <a href="{{ post.url }}">{{ post.title }}</a>
+ <h3><a href="{{ link.url }}">{{ link.name }}</a></h3>
 </li>
 {% endfor %}
 </ul>
-<a href="/posts">See all posts...</a>
+</div>
+<div class="bio gap-4 flex flex-col">
+<h2>
+Hi! I'm a technical generalist living in San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I previously interned at AWS and Stripe. I'm also an <a href="https://newscience.org/emergent-ventures-winners/">Emergent Ventures</a> grant recipient. I moved to SF from Dublin in 2023 on an O1A visa.
+</h2>
+</div>
+<div class="projects">
+<div class="flex flex-col gap-4 pb-6">
+{% for item in site.data.projects %}
+    <div class="flex gap-2 flex-row md:flex-col">
+    <div>
+    <img src="{{ item.image }}" alt="{{ item.title }}" class="image-placeholder">
+    </div>
+    <div>
+    <h3>
+      <a href="{{ item.link }}">
+        {{item.title}}
+      </a>
+      </h3>
+      <div class="no-decoration">{{ item.description }}</div>
+      </div>
+    </div>
+{% endfor %}
+</div>
 
----
+<h3>
+<a href="/projects">See more...</a>
+</h3>
 
-[Contact me here](mailto:gytdau@gmail.com)
+</div>
+<div class="blog">
+
+<h2>Writing</h2>
+
+<ul class="flex flex-col gap-4 pt-6 pb-6">
+{% for post in site.posts %}
+<li>
+ <a href="{{ post.url }}">{{ post.title }}</a>
+ <p>{{ post.date | date: "%B %d, %Y" }}</p>
+</li>
+{% endfor %}
+</ul>
+<h3><a href="/posts">See all posts...</a></h3>
+
+</div>
+
+</div>

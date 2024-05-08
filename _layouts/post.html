@@ -2,17 +2,19 @@
 layout: default
 ---
 
-<header>
-  <hgroup>
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.date | date: '%F' }}</h2>
-  </hgroup>
-</header>
-<main>{{ content }}</main>
-<footer>
-  <div style="font-size: 0.8em">
-    Submit
-    <a href="https://forms.gle/uRtMzByBiNXjLggH9">anonymous feedback</a> or
-    <a href="mailto:gytdau@gmail.com">email me</a> directly.
-  </div>
-</footer>
+<div class="container mx-auto py-16 prose">
+  <header>
+    <hgroup>
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.date | date: '%F' }}</h2>
+    </hgroup>
+  </header>
+  <main>{{ content }}</main>
+  <footer>
+    <div style="font-size: 0.8em">
+      Submit
+      <a href="https://forms.gle/uRtMzByBiNXjLggH9">anonymous feedback</a> or
+      <a href="mailto:gytdau@gmail.com">email me</a> directly.
+    </div>
+  </footer>
+</div>
