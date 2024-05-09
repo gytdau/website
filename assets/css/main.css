@@ -18,12 +18,6 @@ blockquote > p:last-child {
   display: inline-block;
 }
 
-ul > li {
-  /* use bullets */
-  list-style-type: disc;
-}
-
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .img-responsive {

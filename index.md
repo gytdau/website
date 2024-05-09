@@ -40,7 +40,7 @@ Hi! I'm a technical generalist living in San Francisco. I'm currently building f
 
 <h2>Writing</h2>
 
-<ul class="flex flex-col gap-4 pt-6 pb-6">
+<ul class="list-none flex flex-col gap-4 pt-6 pb-6">
 {% for post in site.posts %}
 <li>
  <a href="{{ post.url }}">{{ post.title }}</a>
