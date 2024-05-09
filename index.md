@@ -15,9 +15,9 @@ Hi! I'm a technical generalist living in San Francisco. I'm currently building f
 {% for item in site.data.projects %}
 {% if item.featured %}
     <div class="flex gap-2 flex-row md:flex-col">
-    <div>
-    <img src="{{ item.image }}" alt="{{ item.title }}" class="image-placeholder">
-    </div>
+    <a href="{{ item.link }}">
+      <img src="{{ item.image }}" alt="{{ item.title }}" class="image-placeholder">
+    </a>
     <div>
     <h3>
       <a href="{{ item.link }}">
