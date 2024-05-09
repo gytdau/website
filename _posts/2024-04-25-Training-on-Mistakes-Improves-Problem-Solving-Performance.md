@@ -2,6 +2,7 @@
 layout: post
 title: "Training on Mistakes Improves Problem Solving Performance"
 tags: technical
+project: true
 ---
 
 Error correction helps problem solving agents, even those which are limited in capability, to solve a much broader range of problems. This is particularly important as the Internet weighs towards finished artifacts (like books, posts, and articles) that have scant few examples of making an erroneous claim and then backtracking and fixing it. Can model problem solving performance improve if it was trained on examples of mistakes and their corrections? And how does this relate to the inherent difficulty of the problem in question?

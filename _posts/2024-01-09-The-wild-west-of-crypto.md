@@ -2,6 +2,7 @@
 layout: post
 title: "In the Wild West of Crypto Scams"
 tags: technical
+project: true
 ---
 
 For a wild period in cryptocurrency history, it was possible to find free money everywhere, if only one knew where to look. It was also possible, of course, for this free money to be illusory. Enter the scam known as a “pump and dump”.

@@ -51,7 +51,8 @@ You can email me here: <a href="mailto:gytdau@gmail.com">gytdau@gmail.com</a>.
 <h2>Writing</h2>
 
 <ul class="list-none flex flex-col gap-4 pt-6 pb-6">
-{% for post in site.posts %}
+{% assign filtered_posts = site.posts | where_exp: "post", "post.project == nil" %}
+{% for post in filtered_posts %}
 <li>
  <a href="{{ post.url }}">{{ post.title }}</a>
  <p>{{ post.date | date: "%B %d, %Y" }}</p>
