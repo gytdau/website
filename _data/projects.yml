@@ -4,11 +4,6 @@
   link: "/2024/04/25/Training-on-Mistakes-Improves-Problem-Solving-Performance.html"
   date: "2024-04-25"
   featured: true
-- title: "System Synthesis"
-  description: "Experimental user interface for AI feedback on system design"
-  image: "/assets/previews/1.png"
-  link: "/system-synthesis"
-  featured: true
 - title: "On the GPU Memory Hierarchy"
   description: "Guide to modelling algorithm performance on GPUs"
   image: "/assets/previews/2.png"
@@ -26,6 +21,24 @@
   image: "/assets/previews/4.png"
   link: "https://www.lesswrong.com/posts/GGttHsdWHjh94cX5G/experiments-in-evaluating-steering-vectors"
   date: "2023-06-19"
+  featured: true
+- title: "System Synthesis"
+  description: "Experimental user interface for AI feedback on system design"
+  image: "/assets/previews/1.png"
+  link: "/system-synthesis"
+  featured: true
+  date: "2023-02-21"
+- title: "ExamLearn"
+  description: "Exam revision platform based on exponential learning decay that I built and sold at age 17"
+  image: "/assets/previews/examlearn.png"
+  link: "https://examlearn.ie"
+  date: "2019-09-11"
+  featured: true
+- title: "Tome"
+  image: "/assets/previews/tome.png"
+  description: "A transpiled educational programming language with English-like syntax"
+  link: "https://github.com/gytdau/tome"
+  date: "2016-01-16"
   featured: true
 - title: "Voice Objects"
   description: "An on-the-go technique for writing notes using your voice, instead of on paper or using a device."
@@ -74,10 +87,6 @@
   description: "Rails and React app to match students with online virtual tutors for the Irish secondary school system"
   link: "https://github.com/gytdau/tutorello"
   date: "2020-03-14"
-- title: "Tome"
-  description: "Tome is an educational programming language with English-like syntax. It's made for people who are novice coders to help them learn programming. It compiles down into Javascript."
-  link: "https://github.com/gytdau/tome"
-  date: "2016-01-16"
 - title: "holiday-thingy"
   description: "While interning at Workday, I built a natural language Slack bot that manages employee PTOs."
   link: "https://github.com/gytdau/holiday-thingy"
