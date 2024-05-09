@@ -7,9 +7,19 @@ title: "Gytis Daujotas"
 
 <div class="bio gap-4 flex flex-col">
 <h2>
-Hi! I'm a technical generalist living in San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I previously interned at AWS and Stripe. I'm also an <a href="https://newscience.org/emergent-ventures-winners/">Emergent Ventures</a> grant recipient. I moved from windy Dublin, Ireland to SF in 2023 on an O1A visa.
+Hi, I am a technical generalist. I like making computers do stuff and want to be very good at it.
 </h2>
+<p>
+I am very happy to be alive. I care deeply about alleviating human frustration with shitty software or bad craft. Most theories of impact underrate the commonplace and the beautiful, and undervalue obsession with doing the basic stuff well.
+</p>
+<p>
+In 2023, I moved from Dublin, Ireland to San Francisco. I'm currently building financial infrastructure for logistics at AtoB, and I previously interned at Stripe. I'm also an <a href="https://newscience.org/emergent-ventures-winners/">Emergent Ventures</a> grant recipient.
+</p>
+<p>
+You can email me here: <a href="mailto:gytdau@gmail.com">gytdau@gmail.com</a>.
+</p>
 </div>
+
 <div class="projects">
 <div class="flex flex-col gap-4 pb-6">
 {% for item in site.data.projects %}
